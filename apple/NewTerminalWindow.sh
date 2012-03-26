@@ -1,0 +1,1 @@
+osascript NewTerminalWindow.scpt
