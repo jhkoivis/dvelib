@@ -1,0 +1,38 @@
+%%This is a very basic article template.
+%%There is just one section and two subsections.
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{psfrag}
+
+\begin{document}
+
+
+\section{Title}
+
+\includegraphics{figures/tset.mps}
+
+
+\subsection{Subtitle}
+
+{
+\psfrag{xl}{\put(0,-100){plaaplaa}}
+\psfrag{1,5}{1,5}
+\psfrag{1}{1}
+\psfrag{0}{0}
+\psfrag{0.2}{0.2}
+\includegraphics[width=\textwidth]{figures/test.eps}
+}
+\subsection{Another subtitle}
+
+\begin{itemize}
+  \item make eps with xmgrace
+  \item adjust font size to almost
+  \item grep show, parse text
+  \item generate replace
+  \item adjust places with (note, top left = 0,0): put(+x, +y) 
+  \item adjust boxes by hand
+\end{itemize}
+
+
+\end{document}
