@@ -1,0 +1,6 @@
+    WARNING: € (U+20ac) is already defined more than once on the keyboard (on VK_5, ShiftState 'Ctl+Alt' and VK_4, ShiftState 'Shift').
+    WARNING: } (U+007d) is already defined more than once on the keyboard (on VK_9, ShiftState 'Shift+Ctl+Alt' and VK_0, ShiftState 'Ctl+Alt').
+    WARNING: € (U+20ac) is already defined more than once on the keyboard (on VK_E, ShiftState 'Ctl+Alt' and VK_4, ShiftState 'Shift').
+    WARNING: \ (U+005c) is already defined more than once on the keyboard (on VK_OEM_PLUS, ShiftState 'Ctl+Alt' and VK_7, ShiftState 'Shift+Ctl+Alt').
+    WARNING: '<' defined on OEM_102 (Base) but not defined elsewhere. This key may not be present on all keyboards.
+    WARNING: '>' defined on OEM_102 (Shift) but not defined elsewhere. This key may not be present on all keyboards.

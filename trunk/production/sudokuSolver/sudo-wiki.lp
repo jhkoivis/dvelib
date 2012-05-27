@@ -1,0 +1,24 @@
+paint(1, 3, 5).
+paint(1, 6, 7).
+paint(1, 8, 3).
+paint(1, 9, 1).
+paint(2, 5, 4).
+paint(2, 9, 2).
+paint(3, 2, 7).
+paint(3, 4, 3).
+paint(3, 7, 6).
+paint(4, 5, 6).
+paint(4, 9, 4).
+paint(5, 3, 8).
+paint(5, 6, 9).
+paint(5, 8, 1).
+paint(6, 4, 2).
+paint(6, 5, 3).
+paint(7, 3, 7).
+paint(7, 7, 1).
+paint(7, 9, 3).
+paint(8, 1, 9).
+paint(8, 8, 5).
+paint(9, 1, 8).
+paint(9, 2, 5).
+
