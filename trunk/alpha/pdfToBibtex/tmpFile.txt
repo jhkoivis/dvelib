@@ -1,0 +1,1157 @@
+
+Self-Oscillating Regime of Crack Propagation Induced by a Local Phase Transition at Its Tip
+Alexei Boulbitch
+1,
+*
+and Alexander L. Korzhenevskii
+2
+1
+IEE S.A. ZAE Weiergewan, 11, rue Edmond Reuter, L-5326 Contern, Luxembourg
+2
+Institute for Problems of Mechanical Engineering, RAS, Bol’shoi prosp. V. O. 61, 199178 St. Petersburg, Russia
+(Received 19 June 2010; revised manuscript received 9 April 2011; published 16 August 2011)
+We report an analytical study of propagation of a straight crack with a stress-induced local phase
+transition at the tip. We obtain its contribution to the dynamic fracture energy in explicit form and
+demonstrate that it nonmonotonically depends upon the crack tip velocity. We show that its descending
+part gives rise to the instability of the steady propagation regime. We obtain the dynamic phase diagram
+and indicate those domains where self-oscillating regimes of the crack motion take place.
+DOI: 10.1103/PhysRevLett.107.085505 PACS numbers: 62.20.mt, 46.50.+a, 81.40.Np
+Unstable growth of cracks in the form of a stick-slip
+motion has long been observed in many materials includ-
+ing glasses, ceramics, and brittle polymers [1]. In linear
+elastic fracture mechanics (LEFM) this type of motion was
+attributed to a decrease in the resistance of solids to the
+crack growth manifested as a negative derivative of the
+velocity-dependent fracture energy dÀðvÞ=dv <0. It is
+generally accepted that this is related to some nonlinear
+processes localized in the vicinity of the crack tip (referred
+to as a ‘‘process zone’’) and essentially depends upon the
+zone properties. Various mechanisms have been discussed
+as candidates responsible for this phenomenon (such as
+molecular relaxation, transition from isothermal to adia-
+batic regime, crystallization at the crack tip, and micro-
+plasticity, [1,2]) though most of these are on a qualitative
+level, while efforts to mathematically treat microplasticity-
+based models resulted in the conclusion that they are
+intrinsically ill-posed [3].
+During the last two decades experimental techniques to
+study rapid crack propagation have been greatly improved
+and applied to a number of materials [4,5]. The similarity
+of dynamic fracture behavior of materials with different
+microstructures such as brittle polymers, glasses, and some
+crystals gave rise to a hope that all of them may be
+described by a universal approach. It motivated devising
+several phase-ﬁeld models [6] capable of reproducing mi-
+crobranching and oscillatory instabilities of straight cracks,
+as those reported in [5].
+Recently it was assumed [7] that the characteristic
+length scale associated with the distance on which crack
+proﬁle deviates from LEFMis much larger than the scales
+due to any dissipative mechanisms. The results of the
+weakly nonlinear model turned out to be in quantitative
+agreement with data obtained in brittle gels [8].
+One can attribute the nonlinearity accounted for in the
+paper [8] to acoustic phonons. In solids with nonprimitive
+lattice cells nonlinearity of nonacoustic degrees of freedom
+(e.g., related to optical phonons) may take place. If this
+happens, it becomes responsible for deviating from pre-
+dictions of LEFM. This can result in phase transitions
+(PTs) localized in the vicinity of the crack tip referred to
+here as ‘‘local phase transitions’’ (LPTs) providing a natu-
+ral emergence of the characteristic scale.
+The LPT phenomenon attracted attention since late
+1970s, being a key mechanism responsible for the effect
+of the LPT-related improvement of strength observed in
+ZrO
+2
+-based ceramics and in some steels [9]. Observations
+of LPTs at tips of cracks have also been reported for some
+other inorganic solids: it has been observed during fracture
+of metals (cf. Figure 1 of Ref. [10]) and in ferroelectrics
+[11]. Besides LPTwas observed in resins [12] and recently
+LPTs following fracture of polymers have been reported
+[13]. The LPT effect on the dynamics of cracks has not
+been addressed so far.
+In this Letter for the ﬁrst time we describe a phys-
+ical mechanism responsible for the nonmonotonicity of
+À ¼ ÀðvÞ related to LPT at the crack tip, and resulting in
+self-oscillations during its propagation. We show that LPT
+gives rise to a conﬁgurational viscous friction force resist-
+ing the crack motion. It exhibits a descending behavior
+Crack tip velocity,  v
+F
+r
+i
+c
+t
+i
+o
+n
+ 
+f
+o
+r
+c
+e
+,
+f
+v
+max
+v
+c
+l
+R
+ii
+ii
+iii
+i
+h
+FIG. 1 (color online). Dependence of the force, resisting the
+crack motion upon the velocity of the crack tip v exhibits
+maximum at v ¼ v
+max
+and gives rise to the descending part at
+v
+max
+ v  v
+c
+. Inset shows the sketch of wedging: (i) the
+wedge, (ii) the crack, and (iii) the region where the LPT is
+localized.
+PRL 107, 085505 (2011)
+P HYS I CAL RE VI E W L E T T E RS
+week ending
+19 AUGUST 2011
+0031-9007=11=107(8)=085505(5) 085505-1 Ó 2011 American Physical Society
+within a certain range of crack velocities and gives rise to
+self-oscillatory regimes of crack propagation.
+In order to describe LPT one can introduce the order
+parameter ﬁeld  where value  ¼ 0 corresponds to the
+bulk phase away from the crack tip, while the distribution
+ðr; tÞ Þ 0, ð1; tÞ ¼ 0 accounts for a new state localized
+at the crack tip. This ﬁeld can be described within the
+Landau theory of PTs [14] and obeys the generalized
+Ginzburg-Landau-Khalatnikov equation [15]:
+
+@
+@t
+¼ gÁ À
+
+ À
+4Að1 À2Þð1 þÞ
+E
+
+ii
+ðr; tÞ
+
+
+À
+3
+À
+5
+; (1)
+where the striction interaction between an inhomogeneous
+stress and the order parameter ﬁeld is accounted for: A >0
+is the striction constant, , ,  >0,  >0 and g >0 are
+constants and E is the Young’s modulus,  is the Poisson’s
+ratio, 
+ij
+ðr; tÞ is the stress tensor. Equation (1) describes
+both the case of the second order LPT at  >0 as well as
+that of the ﬁrst order close to the second order transition
+at  <0.
+In the case of a plane, normally loaded crack con-
+sidered here the stress tensor has the trace 
+ii
+ðr; tÞ ¼
+2K
+I
+cosð=2Þ=ð2rÞ
+1=2
+, where K
+I
+is the dynamic stress
+intensity factor (SIF). We consider further a moving frame;
+thus, r ¼ fðx ÀvtÞ
+2
+þy
+2
+g
+1=2
+is the distance and  is the
+angle counted off fromthe tip of the crack moving with the
+velocity v along Ox. It has been shown that the bifurcation
+of Eq. (1) with emerging of a nonzero solution takes place
+at   
+Ã
+>0 [10]:
+
+Ã
+¼ 
+ð0Þ
+Ã
+þ À
+
+2
+v
+2
+4g
+;
+
+ð0Þ
+Ã
+¼
+
+4
+
+2
+g
+
+1=3
+
+AK
+I
+ð1 À2Þð1 þÞ
+E
+
+4=3
+:
+(2)
+Here, 
+ð0Þ
+Ã
+þ >0 is the bifurcation point in the case
+of the motionless crack,  ¼ 0 at  >0 and  ¼
+3
+2
+s
+2
+4
+=16s
+2
+s
+6
+at   0, where s
+n
+¼
+R
+c
+n
+ðrÞdxdy.
+The bifurcation represents a transformation of the trivial
+solution   0 of (1) stable at  >
+Ã
+þ, into the non-
+trivial one:
+ðrÞ % cðrÞ;
+cðrÞ ¼ exp
+
+À
+vr cosðÞ
+2g
+À
+r
+ﬃﬃﬃﬃﬃﬃ
+4R
+3
+p þ
+ﬃﬃﬃ
+4
+3
+p
+
+r
+R
+
+1=2
+cosð=2Þ
+
+;
+(3)
+
+2
+ðvÞ ¼
+Às
+4
+þf
+2
+s
+2
+4
+þ4½
+Ã
+ðvÞ Às
+2
+s
+6
+g
+1=2
+4s
+6
+(4)
+describing the LPT. The latter perturbs the strain ﬁeld, "
+jk
+,
+around the crack tip:
+"
+jk
+¼ "
+ð0Þ
+jk
+þA
+Z
+G
+jl
+ðqÞq
+l
+q
+k
+QðqÞ expðiqrÞ
+d
+3
+q
+ð2Þ
+3
+; (5)
+where "
+ð0Þ
+jk
+is the strain ﬁeld at the crack tip without LPT, q
+is the wave vector, G
+jk
+ðqÞ is the Fourier-transform of the
+elastic Green function of the solid, QðqÞ is the Fourier
+transform of 
+2
+: QðqÞ ¼
+R
+
+2
+ðrÞ expðiqrÞd
+3
+r. The solu-
+tion (3) and (5), is stable at   
+Ã
+þ. The size
+R $ðEg=AK
+Ã
+Þ
+2=3
+(6)
+representing the LPT region establishes the characteristic
+scale of the process zone in our approach. Here K
+Ã
+is the
+SIF corresponding to the bifurcation point. A detailed
+derivation of Eq. (2) and (3) can be found in [10,16].
+Equation of motion (1) may be obtained by using the
+standard Ginzburg-Landau free energy together with the
+dissipative function (per unit crack front length):
+D ¼
+
+2
+Z
+
+@
+@t
+
+2
+dxdy (7)
+[17], the integration in (7) runs over the whole area of the
+(x, y) plane.
+The rate of the free energy, dF=dt, is the power of
+the energy losses due to LPT. If it admits representation
+in the form dF=dt ¼ f
+LPT
+Âv, the factor f
+LPT
+has the
+meaning of a conﬁgurational friction force acting on the
+crack tip. Using a well-known relation of the power of
+losses to the dissipative function dF=dt ¼ À2D [17], sub-
+stituting the solution (3) into (7) one ﬁnds after integration
+f
+LPT
+$J
+2
+v. Here J ¼
+R
+ð@c=@xÞ
+2
+dxdy. Our numerical
+calculation shows that at v <v
+c
+the dependence of J upon
+v is weak and is accurately approximated by a constant
+J % 5. Here, v
+c
+is the characteristic velocity
+v
+c
+¼
+2ðg
+ð0Þ
+Ã
+Þ
+1=2
+
+$
+R
+
+c
+; 
+c
+¼
+
+
+ð0Þ
+Ã
+(8)
+and 
+c
+is the characteristic LPT time. The proportionality
+f
+LPT
+$v indicates the viscouslike character of this force.
+The total friction force has the formf ¼ kv þf
+LPT
+, where
+k is a constant. By the addition of the termkv, we phenom-
+enologically account for other linear dissipation mecha-
+nisms different from LPT. One ﬁnds
+f ¼
+
+kv;  >
+Ã
+þ
+kv þJ
+2
+v;   
+Ã
+þ
+: (9)
+The second term of the lower line of (9) represents the
+contribution to the friction force of the energy dissipation
+within the LPT zone.
+The amplitude  depends upon the crack tip velocity
+ ¼ ðvÞ; hence, the friction force f nonlinearly depends
+upon it. At v ¼ v
+c
+the crack moves so fast that the material
+in front of it has no time to transform into the phase
+ðrÞ Þ 0. The amplitude, therefore, vanishes at v v
+c
+PRL 107, 085505 (2011)
+P HYS I CAL RE VI E W L E T T E RS
+week ending
+19 AUGUST 2011
+085505-2
+and at v ! v
+c
+only the linear contribution f ¼ kv to the
+friction force survives.
+From here on we illustrate the f ¼ fðvÞ dependence
+within the case of the second order LPT ( >0, 
+2
+¼
+ð
+Ã
+ÀÞs
+2
+=s
+4
+) admitting a simple analytical solution.
+At   
+Ã
+the function fðvÞ (9) exhibits a maximum at
+v
+2
+max
+¼ 4gfks
+4
+þJð
+ð0Þ
+Ã
+ÀÞs
+2
+g=3J
+3
+. The inequality
+v
+max
+<v
+c
+holds, if k <Jð þ
+ð0Þ
+Ã
+Þs
+2
+=s
+4
+. This condi-
+tion corresponds to our assumption of the domination of
+the LPT friction mechanism. Under this condition, there-
+fore, the friction force exhibits the descending part at the
+velocities within the interval v
+max
+<v <v
+c
+(Fig. 1). It is
+in this interval the stick-slip instability takes place. Such a
+behavior holds also in the ﬁrst order LPT case.
+We demonstrate this within the example of a wedge-
+loaded crack (inset of Fig. 1) ﬁrst analyzed in [18].
+Wedging is a special case of the double cantilever beam
+(DCB) conﬁguration studied later in [19,20]. It has been
+shown that the DCB conﬁguration possesses inertia, and
+the corresponding equation of the crack tip motion has the
+second time derivative [18–20]. Using original notations of
+the paper [18] one ﬁnds
+m
+d
+2
+l
+dt
+2
+¼
+
+1 À
+v
+v
+R
+
+ð1 À
+2
+ÞK
+2
+I
+E
+ÀÀðvÞ: (10)
+Here l ¼ lðtÞ is the crack length in front of the wedge, the
+dynamic SIF, K
+I
+¼ K
+I
+ðlÞ, is deﬁned by the thin wedge
+(thickness h) [18]. Here ÀðvÞ ¼ 2 þfðvÞ is the dynamic
+fracture energy,  is the surface energy, m is the associated
+crack mass [18], v
+R
+is the Rayleigh velocity, and the factor
+ð1 Àv=v
+R
+Þ accounts for the dynamic SIF [20], the friction
+force, fðvÞ, obeys (9). For simplicity we only consider the
+rectilinear crack tip movement.
+Assume the velocity composed of the constant wedge
+velocity, V, and the speed of the crack tip with respect to
+the wedge, dl=dt, as v ¼ V þdl=dt. By L we denote
+the crack length during the steady motion dl=dt ¼ 0.
+During the unsteady motion we represent the crack length
+as lðÞ ¼ L½1 þzðÞ, where  ¼ ðq=mÞ
+1=2
+t=L is dimen-
+sionless time, z is the dimensionless length and q ¼
+Eh
+2
+=2ð1 À
+2
+Þ. Equation (10) with the friction force
+(9) can be rewritten in the following form:
+z
+00
+þz ¼ Fðz; z
+0
+Þ; (11)
+where we denote z
+0
+ dz=d and z
+00
+ d
+2
+z=d
+2
+, and the
+function Fðz; z
+0
+Þ contains all the rest of the terms in (10).
+The explicit form of this lengthy function will be given in
+full in the forthcoming paper. One can treat (11) as a
+quasilinear equation, provided z, z
+0
+(1 (which is assumed
+here). In this case the van der Pol approach [21] can be
+applied for its analysis. Within this approach, the solution
+of Eq. (11) is found in the formzðÞ ¼ cosð À’Þ where
+the amplitude  ¼ ðÞ >0 obeys the following equation:
+d
+d
+¼ÈðÞ ¼À
+1
+2
+Z
+2
+0
+Fðcos; ÀsinÞsind: (12)
+We report the analysis of the case v (v
+R
+. Integration in
+(12) yields
+È ¼ À
+0:5L
+ðmqÞ
+1=2
+Â
+8
+<
+:
+k;  >
+ð0Þ
+Ã
+À
+2
+v
+2
+=4g
+JL
+
+ðQ
+1
+ ÀQ
+2
+
+2
+þQ
+3
+
+3
+Þ;  <
+ð0Þ
+Ã
+À
+2
+v
+2
+=4g
+; (13)
+where 
+ð0Þ
+Ã
+¼ fAð1 À2Þh=ð1 ÀÞg
+4=3
+g
+À1=3
+L
+À2=3
+,
+Q
+1
+% 
+ð0Þ
+Ã
+À À3
+2
+V
+2
+=4g þk=kJ, Q
+2
+% 0:018
+ð0Þ
+Ã
+,
+and Q
+3
+% 0:2ð
+ð0Þ
+Ã
+À0:94q
+2
+=gmÞ.
+Equation (12) and (13) is one dimensional, and its
+analysis reduces to the enumeration of its ﬁxed points:
+the one at  ¼ 0 is interpreted as a focus in (z, z
+0
+) plane,
+while those at  Þ 0 as cycles [21]. This enables one to
+attribute various regimes of the crack growth to domains of
+the phase diagram on the plane (, V). One of the phase
+diagrams for this system is shown in Fig. 2, while the
+whole set of diagrams will be given in detail in the forth-
+coming paper.
+At  >
+Ã
+(where 
+Ã
+¼ 
+ð0Þ
+Ã
+À
+2
+V
+2
+=4g is shown in
+Fig. 2 by the solid line) the phase   0 is stable every-
+where in the solid. In this region È$À is given by the
+ﬁrst expression (13) and (12) yields a single attractive ﬁxed
+point  ¼ 0 interpreted as the attractive focus in (z, z
+0
+)
+plane (Fig. 2, inset a). Any perturbation of the crack length
+therefore vanishes with time and lðÞ L; hence, the
+crack tip propagation is steady.
+In contrast, if  <
+Ã
+, on both sides of the line  ¼
+
+1
+¼ k=J þ
+ð0Þ
+Ã
+À3
+2
+V
+2
+=4g (shown by the dashed
+line) regimes with cycles in the (z, z
+0
+) plane take place.
+The region to the right of this line is characterized by a
+single stable cycle (shown in the inset b), while the phase
+portrait in the region to its left exhibits attractive focus
+in the origin surrounded by unstable internal and stable
+external cycles (inset c). In this regime small pertur-
+bations of the crack length vanish, while larger ones
+grow and reach the self-oscillating regime corresponding
+to the attractive cycle. At  <
+Ã
+and  <
+2
+¼
+
+1
+À0:002ð
+ð0Þ
+Ã
+Þ
+2
+=Q
+3
+a steady regime of crack motion
+returns (inset d).
+Deﬁning a complete set of brittle materials where the
+LPT takes place is beyond the scope of this Letter. Below
+we make estimates of parameters of our approach within
+several examples of crystals exhibiting bulk structural PTs
+to which the LPT description certainly applies. Structural
+PTs are divided into the order-disorder and displacive
+classes. For the order-disorder class of PTs the kinetic
+PRL 107, 085505 (2011)
+P HYS I CAL RE VI E W L E T T E RS
+week ending
+19 AUGUST 2011
+085505-3
+factor  can take the value of  $10
+À7
+s as in the case
+of AgNaðNO
+2
+Þ
+2
+,  $10
+À11
+s as in KNO
+3
+or NaNO
+2
+up
+to  $10
+À12
+s as in the Rochelle Salt, triglycine sulfate
+and KD
+2
+PO
+4
+. In all materials of this class g $10
+À15
+cm
+2
+and A $10 to 10
+2
+[22,23]. In the case of materials ex-
+hibiting displacive structural PTs (such as BaTiO
+3
+,
+PbTiO
+3
+, PbðTi
+x
+; Zi
+1Àx
+ÞO
+3
+, SrTiO
+3
+and many others) one
+ﬁnds g $10
+À14
+cm
+2
+,  $10
+À13
+s and A $10
+À1
+to 1 [22].
+Assume K
+Ã
+% K
+IC
+. For inorganic materials one can esti-
+mate K
+Ã
+%K
+IC
+$10
+7
+erg=cm
+5=2
+(as in the case of
+BaTiO
+3
+) up to K
+IC
+$10
+8
+erg=cm
+5=2
+(as in PbTiO
+3
+and
+PbðTi
+x
+; Zi
+1Àx
+ÞO
+3
+) [24]. In all these materials the Young’s
+modulus, E, and the mass density, , can be estimated as
+E $10
+12
+erg=cm
+3
+and  $10 g=cm
+3
+.
+Making use of these parameters and (2) the ratio of the
+characteristic velocity, v
+c
+, (8) to the Rayleigh velocity,
+v
+R
+% ð0:85–0:95ÞðE=Þ
+1=2
+:
+v
+c
+v
+R
+$
+
+
+E
+
+1=2
+
+AK
+Ã
+E
+
+2=3
+g
+1=3
+
+(14)
+can be estimated as v
+c
+=v
+R
+$10
+À6
+to 1 in the case of the
+order-disorder PTs and v
+c
+=v
+R
+$0:1 to 1 in the case of
+PTs of the displacive class. Thus, in solids with order-
+disorder transitions the characteristic velocity may be
+small and only slow cracks may exhibit the stick-slip
+behavior. In contrast, the LPT-driven instability takes place
+for fast cracks for solids exhibiting PTs of the displacive
+type.
+In the case of the order-disorder PTs one ﬁnds the zone
+size (6) R $0:1 to 1 nm. The same estimate for the dis-
+placive PTs yields R $1 to 10 nm.
+The constant  of Eq. (1) can be represented as
+ ¼ aðT ÀT
+c
+Þ, where T is the temperature and T
+c
+is the
+Curie temperature. The constant a is known to have the
+same order of magnitude a $10
+À5
+K
+À1
+for a vast num-
+ber of solids (such as BaTiO
+3
+, PbTiO
+3
+, PbðTi
+x
+; Zi
+1Àx
+ÞO
+3
+,
+SrTiO
+3
+, KNO
+3
+, LiTaO
+3
+, LiNbO
+3
+and many others
+[23,25]). Making use of (2) one can estimate the difference,
+ÁT ¼ T
+Ã
+ÀT
+c
+, between the temperature, T
+Ã
+, at which the
+bifurcation takes place and the Curie temperature: ÁT $
+ðAK
+Ã
+Þ
+4=3
+=ðag
+1=3
+E
+4=3
+Þ. One ﬁnds ÁT $10
+3
+K to 10
+4
+K.
+This implies that formation of the LPT practically always
+follows fracture in such materials. Indeed, the observation
+of LPT following fracture in PbðTi
+x
+; Zi
+1Àx
+ÞO
+3
+has been
+reported [11]. This seems to contradict to the rarity of the
+reported cases of the LPTs observations. The reason is that
+(i) the LPT can only be explicitly observed at the tip of a
+loaded crack and disappears with its unloading and (ii) the
+zone size, R, is beyond the optical limit. This caused
+the LPT being only noticed, if the long-living metastable
+trace (forming behind the propagating LPT) was detected
+on the fracture surfaces as in the cases of ZrO
+2
+[9] and
+PbðTi
+x
+; Zi
+1Àx
+ÞO
+3
+[11]. For most PTs, however, either the
+metastable trace has a short lifetime and decays before the
+observation, or it does not form at all.
+The dimensionless ratio r ¼ ðEf
+LPT
+Þ
+1=2
+=K
+IC
+deter-
+mines the relative contribution of the LPT to the dynamic
+fracture resistance. To estimate r we use the expression (9)
+for the force assuming k ¼ 0 and v $v
+c
+. In the case of
+the ﬁrst-order transitions the amplitude  can be esti-
+mated by its jump in the transition point: 
+2
+% Às
+4
+=s
+6
+.
+The ratio s
+4
+=s
+6
+we obtained numerically to vary from
+0.2 to 0.8 with the crack velocity variation from zero
+to v
+c
+. We make this estimate for three perovskites
+BaTiO
+3
+, PbTiO
+3
+and PbðTi
+x
+; Zi
+1Àx
+ÞO
+3
+. In the former case
+ $À10
+À13
+cm
+3
+=erg <0 and  $10
+À22
+cm
+6
+=erg, while
+in the both latter cases  $À10
+À13
+cm
+3
+=erg <0 and
+ $10
+À24
+cm
+6
+=erg [25]. This yields r $0:1 for PbTiO
+3
+and PbðTi
+x
+; Zi
+1Àx
+ÞO
+3
+and r $1 for BaTiO
+3
+. The high
+values of r indicate that the effect is important and should
+manifest itself in a considerable part of the phase diagram.
+To summarize, in solids with nonprimitive crystal cell
+stress-induced local phase transitions may take place at the
+crack tip. Their crucial role in the crack dynamics is due to
+their contributions to the velocity-dependent resistance to
+fracture. We explicitly calculated the viscous friction force
+due to the local phase transition and showed that it provides
+self-oscillating behavior of the crack tip motion within
+certain domains of the dynamic phase diagram.
+A. K. has been supported by the DFG under No. BA944/
+3-3 and by the RFBR grant under No. 10-02-91332.
+α
+α
+∗
+(0)
+V
+a
+b
+c
+d
+Vc
+FIG. 2 (color online). Dynamic phase diagram in (V, ) plane:
+the solid line  ¼ 
+Ã
+separates the region with no phase tran-
+sition at the crack tip from those with LPT. The dashed and
+dashed-dotted lines 
+1
+and 
+2
+separate the regions correspond-
+ing to different regimes of the crack motion. Insets show the
+corresponding phase portraits in the (z, z
+0
+) plane: foci (a) and
+(d) correspond to the steady crack propagation, while the phase
+portraits with cycles (b) and (c) describe various self-oscillating
+regimes.
+PRL 107, 085505 (2011)
+P HYS I CAL RE VI E W L E T T E RS
+week ending
+19 AUGUST 2011
+085505-4
+*Corresponding author.
+boulbitch@gmx.de
+[1] D. Magis, J. Mater. Sci. 20, 3041 (1985).
+[2] T. W. Webb and E. C. Aifantis, Int. J. Solids Struct. 32,
+2725 (1995).
+[3] J. S. Langer, Phys. Rev. E 62, 1351 (2000).
+[4] E. Sharon et al., Nature (London) 410, 68 (2001); J. F.
+Boudet and S. Ciliberto, Physica (Amsterdam) 142D, 317
+(2000); R. D. Deegan et al., Phys. Rev. Lett. 88, 014304
+(2001).
+[5] J. Fineberg and M. Marder, Phys. Rep. 313, 1 (1999); A.
+Yuse and M. Sano, Physica (Amsterdam) 108D, 365
+(1997); R. Deegan et al., Phys. Rev. E 67, 066209
+(2003); B. Yang and K. Ravi-Chandar, J. Mech. Phys.
+Solids 49, 91 (2001); J. A. Hauch and M. P. Marder, Int. J.
+Fract. 90, 133 (1998); T. Cramer, A. Wanner, and P.
+Gumbsch, Phys. Rev. Lett. 85, 788 (2000).
+[6] I. S. Aranson, V. A. Kalatsky, and V. M. Vinokur, Phys.
+Rev. Lett. 85, 118 (2000); L. O. Eastgate et al., Phys. Rev.
+E 65, 036117 (2002); A. Karma, D. A. Kessler, and H.
+Levine, Phys. Rev. Lett. 87, 045501 (2001).
+[7] E. Bouchbinder, A. Livne, and J. Fineberg, Phys. Rev.
+Lett. 101, 264302 (2008).
+[8] A. Livne, E. Bouchbinder, and J. Fineberg, Phys. Rev.
+Lett. 101, 264301 (2008).
+[9] P. M. Kelly and L. R. F. Rose, Prog. Mater. Sci. 47, 463
+(2002); I. Birkby and R. Stevens, Key Eng. Mater. 122–
+124, 527 (1996); S. K. Hann and J. D. Gates, J. Mater. Sci.
+32, 1249 (1997).
+[10] A. Boulbitch, J. Mater. Sci. 27, 1070 (1992).
+[11] S. Kramarov, N. Y. Egorov, and L. M. Katsnel’son, Sov.
+Phys. Solid State 28, 1602 (1986).
+[12] J. A. Donovan, Nippon gomu kyokaishi 75, 239 (2002); A.
+Kadir and A. G. Thomas, in Elastomers: Criter. Eng. Des.,
+edited by C. Hepburn and R. J. W. Reynolds (Appl. Sci.,
+Barking, Engl., 1978), p. 67.
+[13] H. Bai et al., J. Polym. Sci. B 47, 46 (2009); H. P. Zhang
+et al., Phys. Rev. Lett. 102, 245503 (2009).
+[14] L. D. Landau and E. M. Lifshitz, Statistical Physics
+(Pergamon Press, Oxford, 1985), Vol. 5, Sect. 142–145.
+[15] L. D. Landau, E. M. Lifshitz, and L. P. Pitaevskii,
+Statistical Physics (Butterworth-Heinemann, Oxford,
+2002), Vol. 9, Sect. 45; E. M. Lifshitz and L. P.
+Pitaevskii, Physical Kinetics (Butterworth-Heinemann,
+Oxford, 1981), Vol. 10, Sect. 101.
+[16] A. A. Boulbitch and P. Toledano, Phys. Rev. Lett. 81, 838
+(1998).
+[17] We refer the reader to Sect. 121 of [14].
+[18] G. I. Barenblatt and R. L. Salganik, J. Appl. Math. Mech.
+27, 656 (1963); 27, 1644 (1963).
+[19] B. Steverding and S. H. Lehnigk, Int. J. Fract. Mech. 6,
+223 (1970); M. F. Kanninen, Int. J. Fract. 10, 415 (1974).
+[20] L. B. Freund, in Dynamic Fracture Mechanics (Cambridge
+University Press, Cambridge, England, 1998).
+[21] A. A. Andronov, A. A. Vitt, and S. E. Khaikin, in Theory of
+Oscillations (Dover Publications, NewYork, 1987), p. 583.
+[22] M. L. Lines and A. M. Glass, Principles and Applications
+of Ferroelectrics and Related Materials (Oxford
+University Press, Oxford, 2001).
+[23] V. G. Vaks, Introduction into Microscopic Theory of
+Ferroelectrics (Nauka, Moscow, 1973).
+[24] R. C. Pohanka et al., J. Am. Ceram. Soc. 61, 72
+(1978); R. C. Pohanka et al., Ferroelectrics 28, 337 (1980).
+[25] L.-Q. Chen, Top. Appl. Phys. 105, 363 (2007).
+PRL 107, 085505 (2011)
+P HYS I CAL RE VI E W L E T T E RS
+week ending
+19 AUGUST 2011
+085505-5

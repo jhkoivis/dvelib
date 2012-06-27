@@ -1,0 +1,125 @@
+
+Self-Oscillating Regime of Crack Propagation Induced by a Local Phase Transition at Its Tip
+Alexei Boulbitch
+1,
+*
+and Alexander L. Korzhenevskii
+2
+1
+IEE S.A. ZAE Weiergewan, 11, rue Edmond Reuter, L-5326 Contern, Luxembourg
+2
+Institute for Problems of Mechanical Engineering, RAS, Bol’shoi prosp. V. O. 61, 199178 St. Petersburg, Russia
+(Received 19 June 2010; revised manuscript received 9 April 2011; published 16 August 2011)
+We report an analytical study of propagation of a straight crack with a stress-induced local phase
+transition at the tip. We obtain its contribution to the dynamic fracture energy in explicit form and
+demonstrate that it nonmonotonically depends upon the crack tip velocity. We show that its descending
+part gives rise to the instability of the steady propagation regime. We obtain the dynamic phase diagram
+and indicate those domains where self-oscillating regimes of the crack motion take place.
+DOI: 10.1103/PhysRevLett.107.085505 PACS numbers: 62.20.mt, 46.50.+a, 81.40.Np
+Unstable growth of cracks in the form of a stick-slip
+motion has long been observed in many materials includ-
+ing glasses, ceramics, and brittle polymers [1]. In linear
+elastic fracture mechanics (LEFM) this type of motion was
+attributed to a decrease in the resistance of solids to the
+crack growth manifested as a negative derivative of the
+velocity-dependent fracture energy dÀðvÞ=dv <0. It is
+generally accepted that this is related to some nonlinear
+processes localized in the vicinity of the crack tip (referred
+to as a ‘‘process zone’’) and essentially depends upon the
+zone properties. Various mechanisms have been discussed
+as candidates responsible for this phenomenon (such as
+molecular relaxation, transition from isothermal to adia-
+batic regime, crystallization at the crack tip, and micro-
+plasticity, [1,2]) though most of these are on a qualitative
+level, while efforts to mathematically treat microplasticity-
+based models resulted in the conclusion that they are
+intrinsically ill-posed [3].
+During the last two decades experimental techniques to
+study rapid crack propagation have been greatly improved
+and applied to a number of materials [4,5]. The similarity
+of dynamic fracture behavior of materials with different
+microstructures such as brittle polymers, glasses, and some
+crystals gave rise to a hope that all of them may be
+described by a universal approach. It motivated devising
+several phase-ﬁeld models [6] capable of reproducing mi-
+crobranching and oscillatory instabilities of straight cracks,
+as those reported in [5].
+Recently it was assumed [7] that the characteristic
+length scale associated with the distance on which crack
+proﬁle deviates from LEFMis much larger than the scales
+due to any dissipative mechanisms. The results of the
+weakly nonlinear model turned out to be in quantitative
+agreement with data obtained in brittle gels [8].
+One can attribute the nonlinearity accounted for in the
+paper [8] to acoustic phonons. In solids with nonprimitive
+lattice cells nonlinearity of nonacoustic degrees of freedom
+(e.g., related to optical phonons) may take place. If this
+happens, it becomes responsible for deviating from pre-
+dictions of LEFM. This can result in phase transitions
+(PTs) localized in the vicinity of the crack tip referred to
+here as ‘‘local phase transitions’’ (LPTs) providing a natu-
+ral emergence of the characteristic scale.
+The LPT phenomenon attracted attention since late
+1970s, being a key mechanism responsible for the effect
+of the LPT-related improvement of strength observed in
+ZrO
+2
+-based ceramics and in some steels [9]. Observations
+of LPTs at tips of cracks have also been reported for some
+other inorganic solids: it has been observed during fracture
+of metals (cf. Figure 1 of Ref. [10]) and in ferroelectrics
+[11]. Besides LPTwas observed in resins [12] and recently
+LPTs following fracture of polymers have been reported
+[13]. The LPT effect on the dynamics of cracks has not
+been addressed so far.
+In this Letter for the ﬁrst time we describe a phys-
+ical mechanism responsible for the nonmonotonicity of
+À ¼ ÀðvÞ related to LPT at the crack tip, and resulting in
+self-oscillations during its propagation. We show that LPT
+gives rise to a conﬁgurational viscous friction force resist-
+ing the crack motion. It exhibits a descending behavior
+Crack tip velocity,  v
+F
+r
+i
+c
+t
+i
+o
+n
+ 
+f
+o
+r
+c
+e
+,
+f
+v
+max
+v
+c
+l
+R
+ii
+ii
+iii
+i
+h
+FIG. 1 (color online). Dependence of the force, resisting the
+crack motion upon the velocity of the crack tip v exhibits
+maximum at v ¼ v
+max
+and gives rise to the descending part at
+v
+max
+ v  v
+c
+. Inset shows the sketch of wedging: (i) the
+wedge, (ii) the crack, and (iii) the region where the LPT is
+localized.
+PRL 107, 085505 (2011)
+P HYS I CAL RE VI E W L E T T E RS
+week ending
+19 AUGUST 2011
+0031-9007=11=107(8)=085505(5) 085505-1 Ó 2011 American Physical Society
