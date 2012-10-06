@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_0QA0YOT7Ed-KrtGLzpYJxg" name="picledCommad.executingServer">
+  <elementImport xmi:id="_0RqaMOT7Ed-KrtGLzpYJxg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_0RqaMeT7Ed-KrtGLzpYJxg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_0RqaMuT7Ed-KrtGLzpYJxg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_0RqaM-T7Ed-KrtGLzpYJxg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_3KiEwOT7Ed-KrtGLzpYJxg" name="mySocket.MySocketServer">
+    <generalization xmi:id="_HMJHMOT8Ed-KrtGLzpYJxg" general="_8mWNMOT7Ed-KrtGLzpYJxg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8mWNMOT7Ed-KrtGLzpYJxg" name="ExecutingServer">
+    <ownedOperation xmi:id="_JUsvIOT8Ed-KrtGLzpYJxg" name="__init__">
+      <ownedParameter xmi:id="_KCC9UOT8Ed-KrtGLzpYJxg" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_KkIWsOT8Ed-KrtGLzpYJxg" name="handle_accept">
+      <ownedParameter xmi:id="_L5IawOT8Ed-KrtGLzpYJxg" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TEenIOT8Ed-KrtGLzpYJxg" name="ExecutingChannel">
+    <ownedOperation xmi:id="_c1MTQOT8Ed-KrtGLzpYJxg" name="handle_read">
+      <ownedParameter xmi:id="_eOMGgOT8Ed-KrtGLzpYJxg" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ejXFQOT8Ed-KrtGLzpYJxg" name="unpackAndExecute">
+      <ownedParameter xmi:id="_f-HzEOT8Ed-KrtGLzpYJxg" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_iaBNwOT8Ed-KrtGLzpYJxg" name="TODO_saveCommandOutputbyID">
+      <ownedParameter xmi:id="__sTcEOT8Ed-KrtGLzpYJxg" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_zLRkcOT8Ed-KrtGLzpYJxg" name="TODO_sendCommandOutputByID">
+      <ownedParameter xmi:id="_7H-VQOT8Ed-KrtGLzpYJxg" direction="return"/>
+      <ownedParameter xmi:id="_7H-8UOT8Ed-KrtGLzpYJxg" name="id"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_WsZJAOT8Ed-KrtGLzpYJxg" name="mySocket.Mychannel">
+    <generalization xmi:id="_ZPafYOT8Ed-KrtGLzpYJxg" general="_TEenIOT8Ed-KrtGLzpYJxg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QzoJYOT9Ed-KrtGLzpYJxg" memberEnd="_QzoJYeT9Ed-KrtGLzpYJxg _QzowcuT9Ed-KrtGLzpYJxg">
+    <ownedEnd xmi:id="_QzoJYeT9Ed-KrtGLzpYJxg" name="src" type="_8mWNMOT7Ed-KrtGLzpYJxg" association="_QzoJYOT9Ed-KrtGLzpYJxg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QzowceT9Ed-KrtGLzpYJxg" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QzowcOT9Ed-KrtGLzpYJxg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_QzowcuT9Ed-KrtGLzpYJxg" name="dst" type="_TEenIOT8Ed-KrtGLzpYJxg" aggregation="composite" association="_QzoJYOT9Ed-KrtGLzpYJxg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QzowdOT9Ed-KrtGLzpYJxg" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Qzowc-T9Ed-KrtGLzpYJxg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Package>
