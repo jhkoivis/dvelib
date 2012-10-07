@@ -1,11 +1,24 @@
 
+#####################################
+# Executing server
+#####################################
+#
+# maximum command length in chars (including pickle overhead)
+maxPickledStringLength = 2048
+# port to listen
+port = 12350
+#
+#
+#
+#####################################
 import sys
-sys.path.append('/Users/jko/Documents/workspace/abstract_state_representation_via_http/python_s60_tests/asyncore_server_and_client')
+#sys.path.append('/Users/jko/Documents/workspace/abstract_state_representation_via_http/python_s60_tests/asyncore_server_and_client')
 import mySocket
 import pickle
 import StringIO
 import asyncore
 from acceptedCommands import *
+from reloadableCommands import *
 
 class ExecutingChannel(mySocket.MyChannel):
     
@@ -14,7 +27,7 @@ class ExecutingChannel(mySocket.MyChannel):
     
     def handle_read(self):
         self.printVerbose(2, 'Handle Read') 
-        stringToReceive = self.recv(1024)
+        stringToReceive = self.recv(maxPickledStringLength)
         if not self.recieved:
             self.unpackAndExecute(stringToReceive)
             self.recieved = 1
@@ -22,6 +35,9 @@ class ExecutingChannel(mySocket.MyChannel):
             self.close()
     
     def unpackAndExecute(self, stringToReceive):
+        reload(reloadableCommands)
+        #print stringToReceive
+        #reload(SimpleCommand)
         inFile = StringIO.StringIO()
         inFile.write(stringToReceive)
         inFile.seek(0, 0)
@@ -40,8 +56,8 @@ class ExecutingServer(mySocket.MySocketServer):
         ExecutingChannel(channel, verbose = self.verbose, text = 'executing')
 
 asyncore.socket_map.clear()
-server = ExecutingServer(12349, verbose = 10)
-asyncore.loop(timeout=2)
+server = ExecutingServer(port, verbose = 10)
+asyncore.loop(timeout=5)
 
 
 ## create package

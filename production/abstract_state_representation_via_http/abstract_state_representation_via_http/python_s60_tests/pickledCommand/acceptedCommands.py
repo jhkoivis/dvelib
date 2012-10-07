@@ -3,6 +3,7 @@ import subprocess
 import youtube_dl_pyInterface
 import time
 from threading import Thread
+import reloadableCommands
 
 class myCommand:
     
@@ -67,6 +68,53 @@ class DownloadYoutubeVideoThread(Thread):
     
     def run(self):
         youtube_dl_pyInterface.youtubeDL(self.argArray)
+        
+class ReplaceReloadable:
+    """
+    Replaces reloadableCommands class and loads it to memory.
+    """
+    
+    def __init__(self):
+        self.classString = []
+        self.loadLocalToMemory()
+
+    def _getReloadableCommandsFileName(self, inputFn = 'reloadableCommands.py'):
+        import inspect, os
+        thisDir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+        reloadableCommandsFn = thisDir + '/' + inputFn
+        return reloadableCommandsFn
+
+    def loadLocalToMemory(self):
+        """
+        Loads local string to memory
+        """
+        textArray = open(self._getReloadableCommandsFileName(), 'r').readlines()
+        self.classString = textArray
+        
+    def backupExisting(self, inputFn = 'reloadableCommands.py'):
+        """
+        Move previous file to safety with time stamp.
+        """
+        import shutil
+        source = self._getReloadableCommandsFileName()
+        target = source + '.%f' % (time.time())
+        shutil.copy(source, target)
+        
+    def writeNewReloadableCommands(self):
+        target = self._getReloadableCommandsFileName()
+        outFile = open(target, 'w')
+        for line in self.classString:
+            outFile.write(line)
+        outFile.close()
+
+ # reload has to be in ExecutingServer object i.e. the 
+ # object which is executing has to reload the module 
+ #   def reloadReloadableCommands(self):
+ #       reload(reloadableCommands)
+        
+    def execute(self):
+        self.backupExisting()
+        self.writeNewReloadableCommands()
  
         
             
