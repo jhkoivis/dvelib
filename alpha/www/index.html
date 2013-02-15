@@ -1,0 +1,68 @@
+<html>
+	<head>
+
+	</head>
+
+	<body>
+		<script>
+			
+			function writeHeaderAndTextBox(i){
+				document.write("<h1>Insert job " + i + "<h1>");
+				document.write('<form action="" id="form1" name="form1">');
+				//document
+			
+			}
+		
+		
+			function loop() {
+				for (i = 0; i < 10; i++){
+					writeHeaderAndTextBox(i);
+					//document.write("<h1>Insert job " + i + "<h1>");
+					//<form action="" id="form1" name="form1">
+					//<textarea id="textarea1" name="textarea1" rows="10" cols="100"></textarea>
+					//</form>
+				}
+			}
+			
+			
+			
+			
+			
+			loop();
+		
+		</script>
+	
+	
+		<h1>Insert job 1</h1>
+			
+			<form action="" id="form1" name="form1">
+				<textarea id="textarea1" name="textarea1" rows="10" cols="100"></textarea>
+			</form>
+		
+			<script>
+			
+				function readFile() {
+						
+				}
+				var xhr = new XMLHttpRequest();
+				xhr.onreadystatechange = process;
+				xhr.open("GET", "http://127.0.0.1/testfolder/job_1/README", true); //index.html", true);
+				xhr.send();
+	
+				function process()
+				{
+				  if (xhr.readyState == 4) {
+				    var resp = xhr.responseText;
+					document.form1.textarea1.value = resp;
+				  }
+				}
+				
+			</script>
+	
+	<h1>Insert job 2</h1>
+	
+	<h1>Insert job 3</h1>
+	
+	<h1>Insert job 4</h1>
+	</body>
+</html>
