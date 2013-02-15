@@ -4,8 +4,17 @@
 	
 </head>
 	<body>
+		<form id="updatejobs" action="">
+			<input type="submit" value="Update Jobs" />
+		</form>
+
 		<script>
-			$(document).ready(function() {alert("hi");});	
+			$(document).ready(function() {
+				//alert("hi");
+				$('#updatejobs').submit(function(){
+					$.post("cmd/updateSVN.cgi");
+				});
+			});	
 			$.post("cmd/test.cgi", function(data){
 				alert("Data Loaded: " + data);
 			});
