@@ -1,0 +1,14 @@
+
+Help me make a function that caclulates two numbers together.
+
+This is an introductory task.
+
+REWARD:
+1. 10 points
+2. 0.01$
+
+ACCEPTANCE CRITERIA:
+1. Test function test_main.py must return True when called as: python test_main.py
+2. Test function cannot be changed.
+3. Test environment is ubuntu LTS 10.10 with "sudo apt-get install python2.7"
+4. You have not done this task before.
