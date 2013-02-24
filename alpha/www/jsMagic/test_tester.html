@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<script src = sprintf-0.6.js 		type = "text/javascript"></script>
+		<script src = jquery-1.9.1.min.js	type = "text/javascript"></script>
+		<script src = tester.js 			type = "text/javascript"></script>
+		<script src = taskViewer.js 		type = "text/javascript"></script>
+		
+
+	</head>
+	<body>
+	
+		<h1>Test</h1>
+		<textarea id='testTextAreaId' cols=80>return (solution() == 1)</textarea>
+	
+		<h1>Solution 1</h1>
+		<textarea id='solutionTextAreaId'>return 1</textarea>
+	
+		<h1>Solution 2</h1>
+		<textarea id='solutionTextAreaAltId'>return 2</textarea>
+	
+	<script>
+	
+	
+		//var testText = "return (solution() == 1)";
+		var testText = tester.loadSolutionTextById('testTextAreaId');
+		var solutionText = tester.loadSolutionTextById('solutionTextAreaId');
+		var solutionTextAlt = tester.loadSolutionTextById('solutionTextAreaAltId');
+		
+		///////////////////////////////////////////////////
+		var data = 'test 1: ';
+		data += tester.runTest('solutionTextAreaId', 'testTextAreaId');
+		data += '\ntest 2: ';
+		data += tester.runTest('solutionTextAreaAltId', 'testTextAreaId');
+		alert(data);
+		
+		/*
+		/////////////////////////////////////////////////
+		var solution = tester.evalText(solutionText);
+		//alert(solution());
+		var test = tester.evalText(testText);
+		//alert(test());
+		if (test()){
+			alert('Solution 1 fills test');
+		}else{
+			alert('Solution 1 does not fill the test');
+		} 
+		
+		//////////////////////////////////////////////////
+		var solution = tester.evalText(solutionTextAlt);
+		//alert(solution());
+		var test = tester.evalText(testText);
+		//alert(test());
+		if (test()){
+			alert('Solution 2 fills test');
+		}else{
+			alert('Solution 2 does not fill the test');
+		} 
+		*/
+		
+
+		
+		
+	</script>
+	
+	
+	</body>
+</html>

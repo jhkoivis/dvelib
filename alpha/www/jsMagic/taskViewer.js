@@ -6,6 +6,11 @@ taskViewer = {
 		var textAreaId = sprintf('%010d_task_textarea', i);
 		$('#' + textAreaId).text(text);
 	},
+	
+	setTextToSolutionTextArea: function(text, i) {
+		var textAreaId = sprintf('%010d_solution_textarea', i);
+		$('#' + textAreaId).text(text);
+	},
 
 	addTitleToForm: function(i, form) {
 		var title = document.createElement('h1');
@@ -29,7 +34,7 @@ taskViewer = {
 		var area = document.createElement('textarea');
 		area.id = sprintf('%010d_task_textarea', i);
 		area.name = area.id; 
-		area.rows=3;
+		area.rows=10;
 		area.cols=100;
 		form.appendChild(area);
 		return form;
@@ -44,15 +49,23 @@ taskViewer = {
 	},
 
 	addRunTestButtonToForm: function(i, form) {
-		var input = document.createElement('input');
-		input.id = sprintf('%010d_runTestButton', i);
-		input.name = input.id;
-		input.value = 'Run Test';
-		input.type = "submit";
-		input.onclick = "alert('test');";
+		var input = taskViewer.createButton(i, "Run Test");
 		form.appendChild(input);
 		return form;
 	},
+	
+	/*
+	createButton: function(i, value){
+		var input = document.createElement('input');
+		input.id = sprintf('%010d_runTestButton', i);
+		input.name = input.id;
+		input.value = value;
+		input.type = "submit";
+		input.class = "button";
+		input.onclick = alert(tester.runTestByIndex(i));
+		return input;
+	},
+	*/
 	
 	bindButtonSubmitToFunctionAndArgById: function(buttonId, func, arg) {
 		$(buttonId).submit(function() {
@@ -76,7 +89,7 @@ taskViewer = {
 		form = taskViewer.addTaskTextAreaToForm(i, form);
 		form = taskViewer.addSolutionTitleToForm(i, form);
 		form = taskViewer.addSolutionTextAreaToForm(i, form);
-		form = taskViewer.addRunTestButtonToForm(i, form);
+		//form = taskViewer.addRunTestButtonToForm(i, form);
 		return form;	
 	}
 }
