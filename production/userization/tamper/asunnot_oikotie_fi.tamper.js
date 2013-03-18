@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name       oikotie add hider
-// @namespace  http://use.i.E.your.homepage/
+// @namespace  https://dvelib.googlecode.com/svn/trunk/production/userization/tamper/asunnot_oikotie_fi.tamper.js
 // @version    1.0
 // @description  hides two divs that adblock can't hide
 // @match      http://asunnot.oikotie.fi/*
