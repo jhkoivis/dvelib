@@ -71,5 +71,5 @@ function createGoogleLink(from, to){
 }
 
 
-DynamicDiv(createGoogleLink(getAddress(), 'keravan asema'));
+DynamicDiv(createGoogleLink(getAddress(), 'keravan asema, vr'));
 
