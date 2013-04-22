@@ -19,7 +19,7 @@ bind '"\e[B"':history-search-forward
 
 export TEXINPUTS=$TEXINPUTS:~/texmf/
 
-export PATH=/usr/local/bin:/bin/:/usr/bin/:/opt/local/bin/
+export PATH=/usr/local/bin:/bin/:/usr/bin/:/opt/local/bin/:/sbin
 export DYLD_LIBRARY_PATH=/usr/local/cuda/lib
 export LD_LIBRARY_PATH=/usr/local/cuda/lib
 export PYTHONPATH=''
