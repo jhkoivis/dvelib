@@ -5,8 +5,9 @@
 
 # get chocolatey.org
 powershell.exe -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" 
-# set chocolatey path
+# set chocolatey path (permanent and current session)
 setx PATH "%PATH%;%systemdrive%\chocolatey\bin"
+SET   PATH=%PATH%;%systemdrive%\chocolatey\bin
 
 
 
