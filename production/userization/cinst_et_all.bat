@@ -10,13 +10,14 @@ setx PATH "%PATH%;%systemdrive%\chocolatey\bin"
 $env:Path += "%systemdrive%\chocolatey\bin"
 
 # install programs
-cinst -force notepadplusplus
-cinst -force gimp
-cinst -force inkscape
-cinst -force ccleaner
-cinst -force python2-x86_32
-cinst -force GoogleChrome
-cinst -force gevent
+#cinst -force notepadplusplus
+#cinst -force gimp
+#cinst -force inkscape
+#cinst -force ccleaner
+#cinst -force python2-x86_32
+#cinst -force GoogleChrome
+#cinst -force gevent
+cinst -force PDFCreator
 
 # python packages
 setx PATH "%PATH%;%systemdrive%\python27"
