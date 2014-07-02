@@ -17,7 +17,8 @@ $env:Path += "%systemdrive%\chocolatey\bin"
 #cinst -force python2-x86_32
 #cinst -force GoogleChrome
 #cinst -force gevent
-cinst -force PDFCreator
+#cinst -force PDFCreator
+cinst eclipse-standard-kepler
 
 # python packages
 setx PATH "%PATH%;%systemdrive%\python27"
