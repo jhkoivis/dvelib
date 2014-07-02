@@ -15,6 +15,7 @@ $env:Path += "%systemdrive%\chocolatey\bin"
 #cinst -force inkscape
 #cinst -force ccleaner
 cinst -force python2-x86_32
+cinst easy.install
 #cinst -force GoogleChrome
 #cinst -force gevent
 #cinst -force PDFCreator
