@@ -9,5 +9,13 @@ powershell.exe -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-obje
 setx PATH "%PATH%;%systemdrive%\chocolatey\bin"
 $env:Path += "%systemdrive%\chocolatey\bin"
 
+# install programs
+cinst notepad++
+cinst gimp
+cinst inkscape
+
+
+
+
 
 
