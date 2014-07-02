@@ -10,8 +10,8 @@ setx PATH "%PATH%;%systemdrive%\chocolatey\bin"
 $env:Path += "%systemdrive%\chocolatey\bin"
 
 $easy_install = $env:systemdrive\python27\Scripts\easy_install.exe
-iex "$easy_install greenlet$
-iex "$easy_install ouimeaux$
+iex "$easy_install greenlet"
+iex "$easy_install ouimeaux"
 
 # install programs
 cinst -force notepadplusplus
