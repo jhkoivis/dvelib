@@ -20,6 +20,9 @@ cinst -force python2-x86_32
 #cinst -force PDFCreator
 cinst eclipse-standard-kepler
 
+
+
+
 # python packages
 setx PATH "%PATH%;%systemdrive%\python27"
 $env:Path += "%systemdrive%\python27"
@@ -34,6 +37,20 @@ iex "$easy_install scipy"
 iex "$easy_install matplotlib"
 
 
+
+
+# python packages
+setx PATH "%PATH%;%systemdrive%\python2-x86_32"
+$env:Path += "%systemdrive%\python2-x86_32"
+setx PATH "%PATH%;%systemdrive%\python2-x86_32\Scripts"
+$env:Path += "%systemdrive%\python2-x86_32\Scripts"
+
+$easy_install = $env:systemdrive+"\python2-x86_32\Scripts\easy_install.exe"
+iex "$easy_install greenlet"
+iex "$easy_install ouimeaux"
+iex "$easy_install numpy"
+iex "$easy_install scipy"
+iex "$easy_install matplotlib"
 
 
 
