@@ -9,6 +9,10 @@ powershell.exe -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-obje
 setx PATH "%PATH%;%systemdrive%\chocolatey\bin"
 $env:Path += "%systemdrive%\chocolatey\bin"
 
+$easy_install = $env:systemdrive\python27\Scripts\easy_install.exe
+iex "$easy_install greenlet$
+iex "$easy_install ouimeaux$
+
 # install programs
 cinst -force notepadplusplus
 cinst -force gimp
@@ -25,8 +29,8 @@ setx PATH "%PATH%;%systemdrive%\python27\Scripts"
 $env:Path += "%systemdrive%\python27\Scripts"
 
 cinst -force pip
-easy_install greenlet
-easy_install ouimeaux
+easy_install.exe greenlet
+easy_install.exe ouimeaux
 
 
 
