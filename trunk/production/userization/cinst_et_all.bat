@@ -14,12 +14,17 @@ cinst -force notepadplusplus
 cinst -force gimp
 cinst -force inkscape
 cinst -force ccleaner
-cinst -force python2
-cinst -force pip
+cinst -force python2-x86_32
 cinst -force GoogleChrome
 cinst -force gevent
 
 # python packages
+setx PATH "%PATH%;%systemdrive%\python27"
+$env:Path += "%systemdrive%\python27"
+setx PATH "%PATH%;%systemdrive%\python27\Scripts"
+$env:Path += "%systemdrive%\python27\Scripts"
+
+cinst -force pip
 easy_install greenlet
 easy_install ouimeaux
 
