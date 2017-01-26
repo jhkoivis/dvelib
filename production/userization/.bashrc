@@ -126,7 +126,8 @@ if [ -f /opt/local/etc/bash_completion ]; then
       . /opt/local/etc/bash_completion
 fi
 
-function hl() {
+# original highlight: stackoverflow.com
+function highlight() {
 	declare -A fg_color_map
 	fg_color_map[black]=30
 	fg_color_map[red]=31
@@ -141,6 +142,14 @@ function hl() {
 	sed -u s"/$2/$fg_c\0$c_rs/g"
 }
 
+# shorthand: all green, all arguments
+function hl() { 
+	fg_c=$(echo -e "\e[1;32m")
+	c_rs=$'\e[0m'
+	local d="\|";
+	search=`printf "%s" "${@/#/$d}"`
+	sed -u s"/$search/$fg_c\0$c_rs/g"
+}
 
 
 
