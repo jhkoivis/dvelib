@@ -1,5 +1,10 @@
 # ~/.bashrc
 
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+
 ### User Customised Initialisation ###
 ### Place your preferences below ####
 
