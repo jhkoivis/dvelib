@@ -1,4 +1,16 @@
-
+##########################################################
+# Powershell profile                                     # 
+##########################################################
+#
+#  - location on profile is in $profile variable
+#  - in powerwhell run either:
+#       
+#         vim $profile
+#
+#    or
+#         notepad $profile
+#
+###########################################################
 
 Set-Alias l color-ls
 Set-Alias makeVideo 'echo ffmpeg -start_number 0 -i 3mm_steel_bearings_45deg_%06d.tif.png -vb 20M -filter:v "setpts=1*PTS" -vf steel.avi'
