@@ -8,5 +8,59 @@ auditpol.exe /get /category:*
 
 auditpol.exe /set /subcategory:"File System" /success:enable
 
+# open parentfolder of the folder (or file) you want to monitor in File Explorer and select folder you want to monitor
+
+secondClick -- properties -- security -- advanced -- auditing (-- continue) -- add -- select principal
+
+# now add users or groups you want to monitor (add every user that creates a log event when they open the folder or file)
+# for example type "users" without quotations to the white box and click "check names". This monitors all users (that belong to the users group == default is all). You can search users or groups using "advanced" button. Click OK to return previous menu where you clicked "select principal".
+
+Select "Full control" and OK to all (3) remaining windows you opened during this process.
+
+######################
+Check that it works (reboot might be needed, not usually)
+######################
+
+winkey -- type "event viewer" without quotations -- click event viewer -- select Event viewer (local) from left box 
+-- select audit success from center top box -- double click line that starts with 4663
+
+# now open or try to open the file or folder you selected for monitoring  couple of times. 
+# Then hit refresh in the eventviewer left menu.
+# now the top events (lines) in the top box in center column are the file access events that were caused by you trying to open the file or folder. 
+Selecting one event (line) and looking the "object name" in the bottom center column shows the filename you tried to access.
+
+####################
+# Stop monitoring (and filling your log)
+#####################
+
+# open cmd.exe (terminal) with admin rights
+(there are backup and restore commands that save and load audits to file)
+
+auditpol.exe /clear
+
+# this clears audits to default values 
+
+##########
+# alternative to stop: save - clear - load - clear -load -clear cycling
+#############
+
+# edit the policies then save
+
+auditpol.exe /backup /file:test.txt
+
+# then clear
+
+auditpol.exe /clear
+
+# when you need monitoring again, just restore
+
+auditpol.exe /restore /file:test.txt
+
+
+
+
+
+
+
 
 
