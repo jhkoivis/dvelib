@@ -1,0 +1,12 @@
+
+# open cmd.exe (terminal) with admin rights
+# Check group policies 
+
+auditpol.exe /get /category:*
+
+# set monitoring for successful file access (open, close, list)
+
+auditpol.exe /set /subcategory:"File System" /success:enable
+
+
+
