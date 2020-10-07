@@ -1,7 +1,7 @@
 # ~/.bashrc
 
 ### install oneliner
-# pushd ~ && mv ~/.bashrc ~/.bashrc.`date +%s` && wget https://github.com/jhkoivis/dvelib/blob/master/production/userization/.bashrc && popd
+# pushd ~ && mv ~/.bashrc ~/.bashrc.`date +%s` && wget https://github.com/jhkoivis/dvelib/raw/master/production/userization/.bashrc && popd
 
 
 # Source global definitions
@@ -151,7 +151,9 @@ function highlight() {
 	sed -u s"/$2/$fg_c\0$c_rs/g"
 }
 
-# shorthand: all green, all arguments
+# shorthand highlighting the strings given as arguments from stdin: all green, all arguments
+# example that highlights all 'd's from directory listing:
+# ls -lha | hl d 
 function hl() { 
 	fg_c=$(echo -e "\e[1;32m")
 	c_rs=$'\e[0m'
