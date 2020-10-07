@@ -1,5 +1,9 @@
 # ~/.bashrc
 
+### install oneliner
+# pushd ~ && mv ~/.bashrc ~/.bashrc.`date +%s` && wget https://github.com/jhkoivis/dvelib/blob/master/production/userization/.bashrc && popd
+
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
         . /etc/bashrc
