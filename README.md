@@ -6,4 +6,4 @@ pushd ~ && mv ~/.bashrc ~/.bashrc.\`date +%s\` && wget https://github.com/jhkoiv
 
 or how to map drive to letter V: in windows. Use your own account, not admin.
 
-net use v: "\\localhost\c$\Users\jhkoivis\Dropbox\" /persistent:yes
+net use v: "\\\localhost\c$\Users\jhkoivis\Dropbox\" /persistent:yes
