@@ -34,7 +34,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib
 export PYTHONPATH=''
 #Common Aliases #####
 
-
+alias pdfjoin="pdfjam --fitpaper true --rotateoversize true --suffix joined "
 #alias ll='ls -l'
 #alias la='ls -la'
 #alias lt='ls -latr'
