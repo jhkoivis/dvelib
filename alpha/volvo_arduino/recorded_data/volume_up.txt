@@ -1,0 +1,1161 @@
+
+
+0 0 
+16:57:25.318 -> [-000026806] Success: mcp2515.reset()
+16:57:25.318 -> [-000026777] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:25.401 -> [-000026709] Success: mcp2515.setListenOnlyMode()
+16:57:25.449 -> 6164B81 2 29 3B 
+16:57:25.449 -> 6164B81 2 29 3B 
+16:57:25.495 -> [-000026609] Success: mcp2515.reset()
+16:57:25.543 -> [-000026580] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:25.591 -> [-000026513] Success: mcp2515.setListenOnlyMode()
+16:57:25.638 -> 190 2 39 3B 
+16:57:25.684 -> 190 2 39 3B 
+16:57:25.684 -> [-000026421] Success: mcp2515.reset()
+16:57:25.684 -> [-000026392] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:25.777 -> [-000026324] Success: mcp2515.setListenOnlyMode()
+16:57:25.824 -> 190 0 
+16:57:25.824 -> 190 0 
+16:57:25.871 -> [-000026246] Success: mcp2515.reset()
+16:57:25.919 -> [-000026217] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:25.966 -> [-000026149] Success: mcp2515.setListenOnlyMode()
+16:57:26.013 -> 6164B81 2 29 32 
+16:57:26.013 -> 6164B81 2 29 32 
+16:57:26.013 -> [-000026049] Success: mcp2515.reset()
+16:57:26.107 -> [-000026020] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:26.155 -> [-000025953] Success: mcp2515.setListenOnlyMode()
+16:57:26.201 -> 190 2 39 3B 
+16:57:26.247 -> 190 2 39 3B 
+16:57:26.247 -> [-000025861] Success: mcp2515.reset()
+16:57:26.247 -> [-000025832] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:26.343 -> [-000025764] Success: mcp2515.setListenOnlyMode()
+16:57:26.390 -> 190 2 39 3B 
+16:57:26.390 -> [-000025687] Success: mcp2515.reset()
+16:57:26.483 -> [-000025658] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:26.530 -> [-000025590] Success: mcp2515.setListenOnlyMode()
+16:57:26.577 -> 6164B81 2 39 3B 
+16:57:26.577 -> 6164B81 2 39 3B 
+16:57:26.577 -> [-000025490] Success: mcp2515.reset()
+16:57:26.625 -> [-000025461] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:26.672 -> [-000025394] Success: mcp2515.setListenOnlyMode()
+16:57:26.766 -> 6164B81 2 39 3B 
+16:57:26.812 -> [-000025313] Success: mcp2515.reset()
+16:57:26.812 -> [-000025284] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:26.906 -> [-000025216] Success: mcp2515.setListenOnlyMode()
+16:57:26.906 -> 6164B81 2 39 3B 
+16:57:26.953 -> [-000025135] Success: mcp2515.reset()
+16:57:27.000 -> [-000025106] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:27.047 -> [-000025038] Success: mcp2515.setListenOnlyMode()
+16:57:27.141 -> 6592012 4 39 3B 48 0 
+16:57:27.141 -> 6592012 4 39 3B 48 0 
+16:57:27.141 -> [-000024928] Success: mcp2515.reset()
+16:57:27.188 -> [-000024899] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:27.282 -> [-000024831] Success: mcp2515.setListenOnlyMode()
+16:57:27.330 -> 190 2 39 3B 
+16:57:27.330 -> 190 2 39 3B 
+16:57:27.376 -> [-000024739] Success: mcp2515.reset()
+16:57:27.376 -> [-000024711] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:27.470 -> [-000024643] Success: mcp2515.setListenOnlyMode()
+16:57:27.517 -> 190 2 39 3B 
+16:57:27.517 -> [-000024565] Success: mcp2515.reset()
+16:57:27.564 -> [-000024537] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:27.613 -> [-000024469] Success: mcp2515.setListenOnlyMode()
+16:57:27.702 -> 190 2 39 3B 
+16:57:27.702 -> [-000024392] Success: mcp2515.reset()
+16:57:27.702 -> [-000024364] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:27.796 -> [-000024296] Success: mcp2515.setListenOnlyMode()
+16:57:27.843 -> 6164B81 2 39 3B 
+16:57:27.890 -> 6164B81 2 39 3B 
+16:57:27.890 -> [-000024196] Success: mcp2515.reset()
+16:57:27.937 -> [-000024167] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:27.984 -> [-000024099] Success: mcp2515.setListenOnlyMode()
+16:57:28.078 -> 194 2 19 32 
+16:57:28.078 -> 186 0 
+16:57:28.078 -> 186 0 
+16:57:28.078 -> [-000024005] Success: mcp2515.reset()
+16:57:28.125 -> [-000023976] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:28.172 -> [-000023909] Success: mcp2515.setListenOnlyMode()
+16:57:28.268 -> 190 0 
+16:57:28.268 -> 196 0 
+16:57:28.268 -> 196 0 
+16:57:28.268 -> [-000023821] Success: mcp2515.reset()
+16:57:28.313 -> [-000023792] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:28.405 -> [-000023725] Success: mcp2515.setListenOnlyMode()
+16:57:28.405 -> 190 0 
+16:57:28.405 -> 65A4081 0 
+16:57:28.453 -> 65A4081 0 
+16:57:28.453 -> [-000023628] Success: mcp2515.reset()
+16:57:28.499 -> [-000023600] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:28.546 -> [-000023532] Success: mcp2515.setListenOnlyMode()
+16:57:28.639 -> 12E 2 19 32 
+16:57:28.639 -> 190 0 
+16:57:28.639 -> 190 0 
+16:57:28.639 -> [-000023439] Success: mcp2515.reset()
+16:57:28.686 -> [-000023409] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:28.780 -> [-000023342] Success: mcp2515.setListenOnlyMode()
+16:57:28.827 -> 190 0 
+16:57:28.827 -> 6164B81 2 39 3B 
+16:57:28.827 -> 6164B81 2 39 3B 
+16:57:28.874 -> [-000023233] Success: mcp2515.reset()
+16:57:28.874 -> [-000023204] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:28.968 -> [-000023137] Success: mcp2515.setListenOnlyMode()
+16:57:29.015 -> 194 2 39 3B 
+16:57:29.015 -> 190 0 
+16:57:29.062 -> 190 0 
+16:57:29.062 -> [-000023044] Success: mcp2515.reset()
+16:57:29.109 -> [-000023014] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:29.156 -> [-000022947] Success: mcp2515.setListenOnlyMode()
+16:57:29.204 -> 30E 6 1D 37 B1 8F 18 BC 
+16:57:29.204 -> 30E 6 1D 37 B1 8F 18 BC 
+16:57:29.251 -> [-000022830] Success: mcp2515.reset()
+16:57:29.298 -> [-000022801] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:29.346 -> [-000022733] Success: mcp2515.setListenOnlyMode()
+16:57:29.441 -> 4904B81 6 1D 37 A8 49 18 BC 
+16:57:29.441 -> 4904B81 6 1D 37 A8 49 18 BC 
+16:57:29.488 -> [-000022608] Success: mcp2515.reset()
+16:57:29.535 -> [-000022580] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:29.583 -> [-000022512] Success: mcp2515.setListenOnlyMode()
+16:57:29.631 -> 190 0 
+16:57:29.631 -> 190 0 
+16:57:29.631 -> [-000022432] Success: mcp2515.reset()
+16:57:29.678 -> [-000022404] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:29.774 -> [-000022336] Success: mcp2515.setListenOnlyMode()
+16:57:29.821 -> 651201A 0 
+16:57:29.821 -> 651201A 0 
+16:57:29.868 -> [-000022249] Success: mcp2515.reset()
+16:57:29.868 -> [-000022220] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:29.964 -> [-000022153] Success: mcp2515.setListenOnlyMode()
+16:57:29.964 -> 196 1 2 
+16:57:30.011 -> 196 1 2 
+16:57:30.011 -> [-000022069] Success: mcp2515.reset()
+16:57:30.058 -> [-000022040] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:30.105 -> [-000021972] Success: mcp2515.setListenOnlyMode()
+16:57:30.199 -> 190 2 39 3B 
+16:57:30.199 -> 190 2 2 3B 
+16:57:30.199 -> 190 2 2 3B 
+16:57:30.199 -> [-000021868] Success: mcp2515.reset()
+16:57:30.246 -> [-000021839] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:30.340 -> [-000021772] Success: mcp2515.setListenOnlyMode()
+16:57:30.387 -> 185 8 25 C6 45 2C 0 43 CC 60 
+16:57:30.434 -> 6164B81 2 39 3B 
+16:57:30.434 -> 6164B81 2 39 3B 
+16:57:30.434 -> [-000021639] Success: mcp2515.reset()
+16:57:30.481 -> [-000021610] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:30.575 -> [-000021542] Success: mcp2515.setListenOnlyMode()
+16:57:30.622 -> 185 8 25 C6 45 2C 93 16 E2 2A 
+16:57:30.670 -> 6164B81 2 39 3B 
+16:57:30.670 -> 6164B81 2 39 3B 
+16:57:30.670 -> [-000021409] Success: mcp2515.reset()
+16:57:30.717 -> [-000021381] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:30.764 -> [-000021313] Success: mcp2515.setListenOnlyMode()
+16:57:30.857 -> 185 8 25 C6 45 2C 96 97 E2 2A 
+16:57:30.905 -> 196 8 25 C6 45 2C 18 BC E2 2A 
+16:57:30.905 -> 196 8 25 C6 45 2C 18 BC E2 2A 
+16:57:30.952 -> [-000021150] Success: mcp2515.reset()
+16:57:30.999 -> [-000021122] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:31.046 -> [-000021054] Success: mcp2515.setListenOnlyMode()
+16:57:31.093 -> 196 8 25 C6 45 2C 18 BC E2 2A 
+16:57:31.140 -> [-000020958] Success: mcp2515.reset()
+16:57:31.187 -> [-000020929] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:31.234 -> [-000020861] Success: mcp2515.setListenOnlyMode()
+16:57:31.281 -> 185 8 25 C6 48 2C 18 BC E2 2A 
+16:57:31.328 -> 190 0 
+16:57:31.328 -> 190 0 
+16:57:31.328 -> [-000020749] Success: mcp2515.reset()
+16:57:31.374 -> [-000020720] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:31.466 -> [-000020653] Success: mcp2515.setListenOnlyMode()
+16:57:31.466 -> 185 8 25 C6 48 0 18 BC E2 2A 
+16:57:31.513 -> 190 2 25 C6 
+16:57:31.560 -> 190 2 25 C6 
+16:57:31.560 -> [-000020529] Success: mcp2515.reset()
+16:57:31.606 -> [-000020500] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:31.700 -> [-000020432] Success: mcp2515.setListenOnlyMode()
+16:57:31.700 -> 185 8 25 C6 48 0 18 BC E2 2A 
+16:57:31.747 -> 190 2 25 C6 
+16:57:31.794 -> 190 2 25 C6 
+16:57:31.794 -> [-000020307] Success: mcp2515.reset()
+16:57:31.794 -> [-000020279] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:31.888 -> [-000020211] Success: mcp2515.setListenOnlyMode()
+16:57:31.935 -> 185 8 25 C6 48 0 18 BC E2 2A 
+16:57:31.983 -> 190 2 25 C6 
+16:57:31.983 -> 190 2 25 C6 
+16:57:32.030 -> [-000020087] Success: mcp2515.reset()
+16:57:32.030 -> [-000020059] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:32.124 -> [-000019991] Success: mcp2515.setListenOnlyMode()
+16:57:32.170 -> 185 8 25 C6 48 0 18 BC E2 2A 
+16:57:32.170 -> 190 2 25 C6 
+16:57:32.218 -> 190 2 25 C6 
+16:57:32.218 -> [-000019867] Success: mcp2515.reset()
+16:57:32.265 -> [-000019838] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:32.311 -> [-000019771] Success: mcp2515.setListenOnlyMode()
+16:57:32.405 -> 14249481 2 25 C6 
+16:57:32.405 -> 185 8 25 C6 48 0 18 BC E2 2A 
+16:57:32.454 -> 185 8 25 C6 48 0 18 BC E2 2A 
+16:57:32.500 -> [-000019623] Success: mcp2515.reset()
+16:57:32.500 -> [-000019595] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:32.594 -> [-000019527] Success: mcp2515.setListenOnlyMode()
+16:57:32.594 -> 6164B81 2 39 3B 
+16:57:32.642 -> 190 0 
+16:57:32.642 -> 190 0 
+16:57:32.642 -> [-000019429] Success: mcp2515.reset()
+16:57:32.736 -> [-000019400] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:32.783 -> [-000019333] Success: mcp2515.setListenOnlyMode()
+16:57:32.830 -> 195 8 25 C6 48 0 18 BC E2 2A 
+16:57:32.830 -> 6164B81 2 39 32 
+16:57:32.877 -> 6164B81 2 39 32 
+16:57:32.877 -> [-000019200] Success: mcp2515.reset()
+16:57:32.924 -> [-000019172] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:32.971 -> [-000019104] Success: mcp2515.setListenOnlyMode()
+16:57:33.065 -> 195 8 25 C6 48 0 18 BC E2 2A 
+16:57:33.065 -> 196 0 
+16:57:33.065 -> 196 0 
+16:57:33.065 -> [-000018993] Success: mcp2515.reset()
+16:57:33.159 -> [-000018964] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:33.207 -> [-000018896] Success: mcp2515.setListenOnlyMode()
+16:57:33.254 -> 191 4 73 47 48 0 
+16:57:33.302 -> 191 4 73 47 48 0 
+16:57:33.302 -> [-000018794] Success: mcp2515.reset()
+16:57:33.349 -> [-000018765] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:33.396 -> [-000018698] Success: mcp2515.setListenOnlyMode()
+16:57:33.443 -> 190 2 25 C6 
+16:57:33.490 -> 190 2 25 C6 
+16:57:33.490 -> [-000018606] Success: mcp2515.reset()
+16:57:33.490 -> [-000018577] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:33.583 -> [-000018509] Success: mcp2515.setListenOnlyMode()
+16:57:33.630 -> 185 8 25 C6 48 0 18 BC E2 2A 
+16:57:33.678 -> 190 0 
+16:57:33.678 -> 190 0 
+16:57:33.678 -> [-000018398] Success: mcp2515.reset()
+16:57:33.725 -> [-000018369] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:33.817 -> [-000018301] Success: mcp2515.setListenOnlyMode()
+16:57:33.864 -> 185 8 25 C6 48 0 18 BC E2 2A 
+16:57:33.864 -> 185 8 25 C6 48 0 18 BC E2 2A 
+16:57:33.912 -> [-000018173] Success: mcp2515.reset()
+16:57:33.958 -> [-000018145] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:34.005 -> [-000018077] Success: mcp2515.setListenOnlyMode()
+16:57:34.099 -> 65A80F2 2 25 C6 
+16:57:34.099 -> 65A80F2 2 25 C6 
+16:57:34.099 -> [-000017977] Success: mcp2515.reset()
+16:57:34.146 -> [-000017948] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:34.193 -> [-000017881] Success: mcp2515.setListenOnlyMode()
+16:57:34.287 -> 195 8 25 C6 48 0 18 BC E2 2A 
+16:57:34.287 -> 195 8 25 C6 48 0 18 BC E2 2A 
+16:57:34.333 -> [-000017754] Success: mcp2515.reset()
+16:57:34.380 -> [-000017725] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:34.427 -> [-000017657] Success: mcp2515.setListenOnlyMode()
+16:57:34.475 -> 194 2 25 C6 
+16:57:34.521 -> 14244021 0 
+16:57:34.521 -> 14244021 0 
+16:57:34.521 -> [-000017553] Success: mcp2515.reset()
+16:57:34.568 -> [-000017524] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:34.661 -> [-000017457] Success: mcp2515.setListenOnlyMode()
+16:57:34.709 -> 6502012 4 25 C6 48 0 
+16:57:34.709 -> 190 2 25 C6 
+16:57:34.757 -> 190 2 25 C6 
+16:57:34.757 -> [-000017341] Success: mcp2515.reset()
+16:57:34.757 -> [-000017312] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:34.851 -> [-000017245] Success: mcp2515.setListenOnlyMode()
+16:57:34.898 -> 190 2 25 C6 
+16:57:34.898 -> [-000017167] Success: mcp2515.reset()
+16:57:34.993 -> [-000017138] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:35.039 -> [-000017071] Success: mcp2515.setListenOnlyMode()
+16:57:35.086 -> 185 8 25 C6 48 0 18 BC E2 2A 
+16:57:35.086 -> 190 2 25 C6 
+16:57:35.133 -> 190 2 25 C6 
+16:57:35.133 -> [-000016947] Success: mcp2515.reset()
+16:57:35.181 -> [-000016918] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:35.228 -> [-000016850] Success: mcp2515.setListenOnlyMode()
+16:57:35.322 -> 185 8 25 C6 48 0 18 BC E2 2A 
+16:57:35.322 -> 185 8 25 C6 48 0 18 BC E2 2A 
+16:57:35.369 -> [-000016723] Success: mcp2515.reset()
+16:57:35.416 -> [-000016695] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:35.466 -> [-000016627] Success: mcp2515.setListenOnlyMode()
+16:57:35.511 -> 120 0 
+16:57:35.558 -> 120 0 
+16:57:35.558 -> [-000016547] Success: mcp2515.reset()
+16:57:35.558 -> [-000016519] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:35.652 -> [-000016451] Success: mcp2515.setListenOnlyMode()
+16:57:35.700 -> 195 8 25 C6 48 0 18 BC E2 2A 
+16:57:35.746 -> 195 8 25 C6 48 0 18 BC E2 2A 
+16:57:35.794 -> [-000016324] Success: mcp2515.reset()
+16:57:35.794 -> [-000016295] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:35.886 -> [-000016228] Success: mcp2515.setListenOnlyMode()
+16:57:35.886 -> 190 2 25 C6 
+16:57:35.933 -> 190 0 
+16:57:35.933 -> 190 0 
+16:57:35.933 -> [-000016134] Success: mcp2515.reset()
+16:57:36.029 -> [-000016105] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:36.076 -> [-000016037] Success: mcp2515.setListenOnlyMode()
+16:57:36.122 -> 190 0 
+16:57:36.122 -> 190 2 25 C6 
+16:57:36.122 -> 190 2 25 C6 
+16:57:36.122 -> [-000015937] Success: mcp2515.reset()
+16:57:36.169 -> [-000015908] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:36.263 -> [-000015841] Success: mcp2515.setListenOnlyMode()
+16:57:36.311 -> 185 8 25 C6 48 0 18 BC E2 2A 
+16:57:36.359 -> 185 8 25 C6 48 0 18 BC E2 2A 
+16:57:36.359 -> [-000015713] Success: mcp2515.reset()
+16:57:36.406 -> [-000015684] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:36.453 -> [-000015616] Success: mcp2515.setListenOnlyMode()
+16:57:36.546 -> 190 0 
+16:57:36.546 -> 190 0 
+16:57:36.546 -> [-000015538] Success: mcp2515.reset()
+16:57:36.594 -> [-000015509] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:36.688 -> [-000015441] Success: mcp2515.setListenOnlyMode()
+16:57:36.688 -> 195 8 25 C6 48 0 18 BC E2 2A 
+16:57:36.735 -> 195 8 25 C6 48 0 18 BC E2 2A 
+16:57:36.783 -> [-000015313] Success: mcp2515.reset()
+16:57:36.783 -> [-000015285] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:36.878 -> [-000015217] Success: mcp2515.setListenOnlyMode()
+16:57:36.925 -> 190 0 
+16:57:36.925 -> 190 0 
+16:57:36.925 -> [-000015138] Success: mcp2515.reset()
+16:57:36.972 -> [-000015110] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:37.066 -> [-000015042] Success: mcp2515.setListenOnlyMode()
+16:57:37.113 -> 6564B81 2 29 32 
+16:57:37.113 -> 6564B81 2 29 32 
+16:57:37.113 -> [-000014942] Success: mcp2515.reset()
+16:57:37.159 -> [-000014913] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:37.251 -> [-000014845] Success: mcp2515.setListenOnlyMode()
+16:57:37.299 -> 120 0 
+16:57:37.299 -> 120 0 
+16:57:37.299 -> [-000014766] Success: mcp2515.reset()
+16:57:37.346 -> [-000014737] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:37.439 -> [-000014669] Success: mcp2515.setListenOnlyMode()
+16:57:37.486 -> 14A49481 2 39 32 
+16:57:37.486 -> 190 2 25 C6 
+16:57:37.486 -> 190 2 25 C6 
+16:57:37.533 -> [-000014558] Success: mcp2515.reset()
+16:57:37.580 -> [-000014529] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:37.627 -> [-000014461] Success: mcp2515.setListenOnlyMode()
+16:57:37.721 -> 196 1 2 
+16:57:37.721 -> 196 1 2 
+16:57:37.721 -> [-000014377] Success: mcp2515.reset()
+16:57:37.721 -> [-000014349] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:37.815 -> [-000014281] Success: mcp2515.setListenOnlyMode()
+16:57:37.862 -> 196 1 2 
+16:57:37.862 -> [-000014208] Success: mcp2515.reset()
+16:57:37.910 -> [-000014180] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:37.957 -> [-000014112] Success: mcp2515.setListenOnlyMode()
+16:57:38.051 -> 196 1 2 
+16:57:38.051 -> [-000014039] Success: mcp2515.reset()
+16:57:38.098 -> [-000014010] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:38.145 -> [-000013942] Success: mcp2515.setListenOnlyMode()
+16:57:38.193 -> 196 1 2 
+16:57:38.193 -> [-000013870] Success: mcp2515.reset()
+16:57:38.287 -> [-000013841] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:38.334 -> [-000013773] Success: mcp2515.setListenOnlyMode()
+16:57:38.381 -> 6504081 0 
+16:57:38.381 -> 6504081 0 
+16:57:38.381 -> [-000013685] Success: mcp2515.reset()
+16:57:38.429 -> [-000013657] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:38.478 -> [-000013589] Success: mcp2515.setListenOnlyMode()
+16:57:38.570 -> 190 2 39 32 
+16:57:38.570 -> 196 2 25 C6 
+16:57:38.617 -> 196 2 25 C6 
+16:57:38.617 -> [-000013482] Success: mcp2515.reset()
+16:57:38.617 -> [-000013454] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:38.712 -> [-000013386] Success: mcp2515.setListenOnlyMode()
+16:57:38.759 -> 190 2 39 32 
+16:57:38.759 -> 190 0 
+16:57:38.806 -> 190 0 
+16:57:38.806 -> [-000013292] Success: mcp2515.reset()
+16:57:38.854 -> [-000013263] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:38.901 -> [-000013196] Success: mcp2515.setListenOnlyMode()
+16:57:38.948 -> 190 0 
+16:57:38.948 -> 190 2 39 32 
+16:57:38.948 -> 190 2 39 32 
+16:57:38.995 -> [-000013095] Success: mcp2515.reset()
+16:57:39.042 -> [-000013067] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:39.090 -> [-000012999] Success: mcp2515.setListenOnlyMode()
+16:57:39.137 -> 658909B 0 
+16:57:39.184 -> 658909B 0 
+16:57:39.184 -> [-000012911] Success: mcp2515.reset()
+16:57:39.184 -> [-000012882] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:39.280 -> [-000012815] Success: mcp2515.setListenOnlyMode()
+16:57:39.327 -> 190 2 29 32 
+16:57:39.327 -> 190 2 29 32 
+16:57:39.374 -> [-000012724] Success: mcp2515.reset()
+16:57:39.374 -> [-000012694] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:39.469 -> [-000012626] Success: mcp2515.setListenOnlyMode()
+16:57:39.517 -> 190 2 39 32 
+16:57:39.517 -> 190 0 
+16:57:39.517 -> 190 0 
+16:57:39.564 -> [-000012533] Success: mcp2515.reset()
+16:57:39.610 -> [-000012505] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:39.657 -> [-000012437] Success: mcp2515.setListenOnlyMode()
+16:57:39.704 -> 190 0 
+16:57:39.751 -> 190 2 25 C6 
+16:57:39.751 -> 190 2 25 C6 
+16:57:39.751 -> [-000012337] Success: mcp2515.reset()
+16:57:39.798 -> [-000012308] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:39.845 -> [-000012240] Success: mcp2515.setListenOnlyMode()
+16:57:39.893 -> 185 8 25 C6 48 0 18 BC E2 2A 
+16:57:39.939 -> 65A1407 8 25 C6 48 C 0 67 E0 2A 
+16:57:39.985 -> 65A1407 8 25 C6 48 C 0 67 E0 2A 
+16:57:39.985 -> [-000012074] Success: mcp2515.reset()
+16:57:40.081 -> [-000012046] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:40.128 -> [-000011978] Success: mcp2515.setListenOnlyMode()
+16:57:40.175 -> 65A1407 8 25 C6 48 C 0 67 E0 2A 
+16:57:40.175 -> [-000011880] Success: mcp2515.reset()
+16:57:40.222 -> [-000011851] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:40.314 -> [-000011784] Success: mcp2515.setListenOnlyMode()
+16:57:40.361 -> 65A1407 8 25 C6 48 C 0 67 E0 2A 
+16:57:40.407 -> [-000011685] Success: mcp2515.reset()
+16:57:40.407 -> [-000011657] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:40.501 -> [-000011589] Success: mcp2515.setListenOnlyMode()
+16:57:40.550 -> 185 8 25 C6 48 0 18 BC E2 2A 
+16:57:40.596 -> 185 8 25 C6 48 0 18 BC E2 2A 
+16:57:40.643 -> [-000011462] Success: mcp2515.reset()
+16:57:40.643 -> [-000011432] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:40.736 -> [-000011366] Success: mcp2515.setListenOnlyMode()
+16:57:40.783 -> 128 0 
+16:57:40.783 -> 128 0 
+16:57:40.783 -> [-000011286] Success: mcp2515.reset()
+16:57:40.831 -> [-000011257] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:40.878 -> [-000011190] Success: mcp2515.setListenOnlyMode()
+16:57:40.973 -> 195 8 25 C6 48 0 18 BC E2 2A 
+16:57:40.973 -> 195 8 25 C6 48 0 18 BC E2 2A 
+16:57:41.020 -> [-000011063] Success: mcp2515.reset()
+16:57:41.068 -> [-000011033] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:41.116 -> [-000010967] Success: mcp2515.setListenOnlyMode()
+16:57:41.210 -> 190 2 25 C6 
+16:57:41.210 -> 190 2 25 C6 
+16:57:41.210 -> [-000010874] Success: mcp2515.reset()
+16:57:41.257 -> [-000010846] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:41.305 -> [-000010778] Success: mcp2515.setListenOnlyMode()
+16:57:41.353 -> 6164B81 2 39 60 
+16:57:41.400 -> 6164B81 2 39 60 
+16:57:41.400 -> [-000010678] Success: mcp2515.reset()
+16:57:41.446 -> [-000010649] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:41.542 -> [-000010581] Success: mcp2515.setListenOnlyMode()
+16:57:41.542 -> 6164B81 2 39 32 
+16:57:41.589 -> 6164B81 2 39 32 
+16:57:41.589 -> [-000010481] Success: mcp2515.reset()
+16:57:41.635 -> [-000010452] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:41.681 -> [-000010385] Success: mcp2515.setListenOnlyMode()
+16:57:41.775 -> 6164B81 2 29 60 
+16:57:41.775 -> 6164B81 2 29 60 
+16:57:41.775 -> [-000010285] Success: mcp2515.reset()
+16:57:41.822 -> [-000010256] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:41.869 -> [-000010188] Success: mcp2515.setListenOnlyMode()
+16:57:41.964 -> 65A4B81 8 25 C6 48 0 C6 BC E2 2A 
+16:57:42.011 -> 65A4B81 8 25 C6 48 0 C6 BC E2 2A 
+16:57:42.011 -> [-000010052] Success: mcp2515.reset()
+16:57:42.058 -> [-000010023] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:42.105 -> [-000009956] Success: mcp2515.setListenOnlyMode()
+16:57:42.200 -> 190 2 25 C6 
+16:57:42.200 -> 190 2 25 C6 
+16:57:42.247 -> [-000009865] Success: mcp2515.reset()
+16:57:42.247 -> [-000009835] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:42.343 -> [-000009768] Success: mcp2515.setListenOnlyMode()
+16:57:42.390 -> 194 2 39 3B 
+16:57:42.390 -> 594 0 
+16:57:42.390 -> 594 0 
+16:57:42.390 -> [-000009674] Success: mcp2515.reset()
+16:57:42.437 -> [-000009646] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:42.531 -> [-000009578] Success: mcp2515.setListenOnlyMode()
+16:57:42.577 -> 190 2 25 C6 
+16:57:42.577 -> 196 0 
+16:57:42.577 -> 196 0 
+16:57:42.577 -> [-000009484] Success: mcp2515.reset()
+16:57:42.624 -> [-000009455] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:42.670 -> [-000009388] Success: mcp2515.setListenOnlyMode()
+16:57:42.765 -> 196 0 
+16:57:42.765 -> [-000009316] Success: mcp2515.reset()
+16:57:42.812 -> [-000009287] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:42.859 -> [-000009220] Success: mcp2515.setListenOnlyMode()
+16:57:42.906 -> 185 8 25 C6 48 0 C6 BC E2 2A 
+16:57:42.953 -> 185 8 25 C6 48 0 C6 BC E2 2A 
+16:57:43.000 -> [-000009093] Success: mcp2515.reset()
+16:57:43.000 -> [-000009064] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:43.095 -> [-000008996] Success: mcp2515.setListenOnlyMode()
+16:57:43.142 -> 185 8 25 C6 48 0 C6 BC E2 2A 
+16:57:43.189 -> [-000008901] Success: mcp2515.reset()
+16:57:43.237 -> [-000008872] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:43.284 -> [-000008805] Success: mcp2515.setListenOnlyMode()
+16:57:43.331 -> 185 8 25 C6 48 0 C6 BC E2 2A 
+16:57:43.331 -> [-000008710] Success: mcp2515.reset()
+16:57:43.426 -> [-000008681] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:43.474 -> [-000008613] Success: mcp2515.setListenOnlyMode()
+16:57:43.520 -> 195 8 25 C6 48 0 C6 BC E2 2A 
+16:57:43.567 -> 195 8 25 C6 48 0 C6 BC E2 2A 
+16:57:43.567 -> [-000008486] Success: mcp2515.reset()
+16:57:43.615 -> [-000008458] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:43.709 -> [-000008390] Success: mcp2515.setListenOnlyMode()
+16:57:43.756 -> 185 8 25 C6 48 0 C6 BC E2 2A 
+16:57:43.803 -> 185 8 25 C6 48 0 C6 BC E2 2A 
+16:57:43.803 -> [-000008263] Success: mcp2515.reset()
+16:57:43.850 -> [-000008233] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:43.897 -> [-000008166] Success: mcp2515.setListenOnlyMode()
+16:57:43.991 -> 194 8 25 C6 48 0 11 50 E2 2A 
+16:57:44.038 -> 14249412 0 
+16:57:44.038 -> 14249412 0 
+16:57:44.038 -> [-000008044] Success: mcp2515.reset()
+16:57:44.085 -> [-000008015] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:44.132 -> [-000007948] Success: mcp2515.setListenOnlyMode()
+16:57:44.181 -> 6164B81 2 39 32 
+16:57:44.227 -> 6164B81 2 39 32 
+16:57:44.227 -> 6164B81 2 39 32 
+16:57:44.274 -> [-000007829] Success: mcp2515.reset()
+16:57:44.274 -> [-000007800] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:44.368 -> [-000007733] Success: mcp2515.setListenOnlyMode()
+16:57:44.415 -> 195 8 25 C6 48 0 11 50 E2 2A 
+16:57:44.463 -> 195 8 25 C6 48 0 11 50 E2 2A 
+16:57:44.463 -> [-000007606] Success: mcp2515.reset()
+16:57:44.512 -> [-000007577] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:44.604 -> [-000007509] Success: mcp2515.setListenOnlyMode()
+16:57:44.604 -> 185 8 25 C6 48 0 11 50 E2 2A 
+16:57:44.652 -> 6592012 4 25 C6 48 0 
+16:57:44.699 -> 6592012 4 25 C6 48 0 
+16:57:44.699 -> [-000007366] Success: mcp2515.reset()
+16:57:44.746 -> [-000007337] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:44.794 -> [-000007270] Success: mcp2515.setListenOnlyMode()
+16:57:44.888 -> 185 8 25 C6 48 0 11 50 E2 2A 
+16:57:44.936 -> 65A4B81 8 25 C6 48 0 0 67 E0 2A 
+16:57:44.936 -> 65A4B81 8 25 C6 48 0 0 67 E0 2A 
+16:57:44.983 -> [-000007104] Success: mcp2515.reset()
+16:57:45.031 -> [-000007075] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:45.079 -> [-000007008] Success: mcp2515.setListenOnlyMode()
+16:57:45.126 -> 12D 8 25 C6 48 0 0 67 E0 2A 
+16:57:45.174 -> 12D 8 25 C6 48 0 0 67 E0 2A 
+16:57:45.174 -> [-000006883] Success: mcp2515.reset()
+16:57:45.267 -> [-000006854] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:45.314 -> [-000006787] Success: mcp2515.setListenOnlyMode()
+16:57:45.361 -> 6592012 4 30 E0 48 0 
+16:57:45.361 -> 196 8 25 C6 48 0 0 67 E0 2A 
+16:57:45.408 -> 196 8 25 C6 48 0 0 67 E0 2A 
+16:57:45.456 -> [-000006637] Success: mcp2515.reset()
+16:57:45.503 -> [-000006608] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:45.550 -> [-000006541] Success: mcp2515.setListenOnlyMode()
+16:57:45.597 -> 185 8 25 C6 48 0 11 50 E2 2A 
+16:57:45.597 -> 196 1 2 
+16:57:45.645 -> 196 1 2 
+16:57:45.645 -> [-000006425] Success: mcp2515.reset()
+16:57:45.692 -> [-000006396] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:45.738 -> [-000006329] Success: mcp2515.setListenOnlyMode()
+16:57:45.831 -> 185 8 25 C6 48 0 11 50 E2 2A 
+16:57:45.831 -> 14A494F2 0 
+16:57:45.831 -> 14A494F2 0 
+16:57:45.878 -> [-000006207] Success: mcp2515.reset()
+16:57:45.926 -> [-000006178] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:45.973 -> [-000006111] Success: mcp2515.setListenOnlyMode()
+16:57:46.020 -> 590 2 25 C6 
+16:57:46.067 -> 590 2 25 C6 
+16:57:46.067 -> [-000006019] Success: mcp2515.reset()
+16:57:46.114 -> [-000005990] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:46.161 -> [-000005922] Success: mcp2515.setListenOnlyMode()
+16:57:46.208 -> 185 8 25 C6 48 0 11 50 E2 2A 
+16:57:46.254 -> 128 0 
+16:57:46.254 -> 128 0 
+16:57:46.302 -> [-000005811] Success: mcp2515.reset()
+16:57:46.302 -> [-000005782] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:46.396 -> [-000005714] Success: mcp2515.setListenOnlyMode()
+16:57:46.396 -> 195 8 25 C6 48 0 11 50 E2 2A 
+16:57:46.443 -> 195 8 25 C6 48 0 11 50 E2 2A 
+16:57:46.489 -> [-000005586] Success: mcp2515.reset()
+16:57:46.536 -> [-000005558] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:46.630 -> [-000005490] Success: mcp2515.setListenOnlyMode()
+16:57:46.630 -> 195 8 25 C6 48 0 11 50 E2 2A 
+16:57:46.678 -> 195 8 25 C6 48 0 11 50 E2 2A 
+16:57:46.725 -> [-000005363] Success: mcp2515.reset()
+16:57:46.725 -> [-000005335] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:46.821 -> [-000005267] Success: mcp2515.setListenOnlyMode()
+16:57:46.868 -> 6592012 4 25 C6 48 0 
+16:57:46.915 -> 6592012 4 25 C6 48 0 
+16:57:46.915 -> [-000005156] Success: mcp2515.reset()
+16:57:46.961 -> [-000005128] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:47.009 -> [-000005060] Success: mcp2515.setListenOnlyMode()
+16:57:47.056 -> 195 8 25 C6 48 0 11 50 E2 2A 
+16:57:47.103 -> 195 8 25 C6 48 0 11 50 E2 2A 
+16:57:47.150 -> [-000004932] Success: mcp2515.reset()
+16:57:47.198 -> [-000004903] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:47.244 -> [-000004836] Success: mcp2515.setListenOnlyMode()
+16:57:47.291 -> 4964B81 2 29 32 
+16:57:47.291 -> 4964B81 2 29 32 
+16:57:47.338 -> [-000004736] Success: mcp2515.reset()
+16:57:47.385 -> [-000004707] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:47.432 -> [-000004639] Success: mcp2515.setListenOnlyMode()
+16:57:47.528 -> 185 8 25 C6 48 0 11 50 E2 2A 
+16:57:47.528 -> 6164B81 2 39 32 
+16:57:47.528 -> 6164B81 2 39 32 
+16:57:47.573 -> [-000004507] Success: mcp2515.reset()
+16:57:47.620 -> [-000004478] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:47.668 -> [-000004411] Success: mcp2515.setListenOnlyMode()
+16:57:47.763 -> 194 8 25 C6 48 0 11 50 E2 2A 
+16:57:47.763 -> 6504B81 0 
+16:57:47.763 -> 6504B81 0 
+16:57:47.763 -> [-000004291] Success: mcp2515.reset()
+16:57:47.810 -> [-000004262] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:47.857 -> [-000004195] Success: mcp2515.setListenOnlyMode()
+16:57:47.951 -> 4B64B81 2 20 C0 
+16:57:47.998 -> 185 8 25 C6 48 0 0 67 E0 2A 
+16:57:47.998 -> 185 8 25 C6 48 0 0 67 E0 2A 
+16:57:47.998 -> [-000004050] Success: mcp2515.reset()
+16:57:48.091 -> [-000004022] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:48.139 -> [-000003954] Success: mcp2515.setListenOnlyMode()
+16:57:48.186 -> 185 8 25 C6 48 0 0 67 E0 2A 
+16:57:48.186 -> 185 8 25 C6 48 0 0 67 E0 2A 
+16:57:48.232 -> [-000003829] Success: mcp2515.reset()
+16:57:48.279 -> [-000003801] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:48.326 -> [-000003733] Success: mcp2515.setListenOnlyMode()
+16:57:48.420 -> 190 0 
+16:57:48.420 -> 190 2 25 C6 
+16:57:48.420 -> 190 2 25 C6 
+16:57:48.420 -> [-000003633] Success: mcp2515.reset()
+16:57:48.467 -> [-000003604] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:48.561 -> [-000003536] Success: mcp2515.setListenOnlyMode()
+16:57:48.608 -> 4849081 8 25 C6 48 0 11 50 E2 2A 
+16:57:48.656 -> 190 0 
+16:57:48.656 -> 190 0 
+16:57:48.656 -> [-000003421] Success: mcp2515.reset()
+16:57:48.702 -> [-000003392] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:48.796 -> [-000003324] Success: mcp2515.setListenOnlyMode()
+16:57:48.796 -> 190 2 25 C6 
+16:57:48.844 -> 125 8 25 C6 48 0 0 67 E0 2A 
+16:57:48.891 -> 125 8 25 C6 48 0 0 67 E0 2A 
+16:57:48.891 -> [-000003184] Success: mcp2515.reset()
+16:57:48.938 -> [-000003155] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:48.984 -> [-000003088] Success: mcp2515.setListenOnlyMode()
+16:57:49.031 -> 185 8 25 C6 48 0 11 50 E2 2A 
+16:57:49.078 -> 14249481 2 39 3B 
+16:57:49.126 -> 14249481 2 39 3B 
+16:57:49.126 -> [-000002954] Success: mcp2515.reset()
+16:57:49.173 -> [-000002925] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:49.221 -> [-000002857] Success: mcp2515.setListenOnlyMode()
+16:57:49.268 -> 14249481 2 39 3B 
+16:57:49.316 -> [-000002775] Success: mcp2515.reset()
+16:57:49.316 -> [-000002746] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:49.411 -> [-000002678] Success: mcp2515.setListenOnlyMode()
+16:57:49.458 -> 185 8 25 C6 48 0 11 50 E2 2A 
+16:57:49.505 -> 6164B81 2 39 32 
+16:57:49.505 -> 6164B81 2 39 32 
+16:57:49.551 -> [-000002546] Success: mcp2515.reset()
+16:57:49.551 -> [-000002517] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:49.646 -> [-000002450] Success: mcp2515.setListenOnlyMode()
+16:57:49.693 -> 190 2 25 C6 
+16:57:49.693 -> 6164B81 2 39 32 
+16:57:49.693 -> 6164B81 2 39 32 
+16:57:49.740 -> [-000002334] Success: mcp2515.reset()
+16:57:49.787 -> [-000002306] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:49.834 -> [-000002238] Success: mcp2515.setListenOnlyMode()
+16:57:49.882 -> 128 0 
+16:57:49.882 -> 128 0 
+16:57:49.882 -> [-000002159] Success: mcp2515.reset()
+16:57:49.929 -> [-000002130] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:50.023 -> [-000002063] Success: mcp2515.setListenOnlyMode()
+16:57:50.071 -> 190 2 39 32 
+16:57:50.118 -> 190 2 39 32 
+16:57:50.118 -> [-000001971] Success: mcp2515.reset()
+16:57:50.118 -> [-000001942] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:50.212 -> [-000001874] Success: mcp2515.setListenOnlyMode()
+16:57:50.259 -> 190 2 39 32 
+16:57:50.259 -> [-000001797] Success: mcp2515.reset()
+16:57:50.307 -> [-000001768] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:50.354 -> [-000001700] Success: mcp2515.setListenOnlyMode()
+16:57:50.448 -> 190 2 6E E7 
+16:57:50.448 -> 190 2 6E E7 
+16:57:50.448 -> [-000001609] Success: mcp2515.reset()
+16:57:50.495 -> [-000001580] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:50.588 -> [-000001512] Success: mcp2515.setListenOnlyMode()
+16:57:50.635 -> 120 2 39 3B 
+16:57:50.635 -> 120 2 39 3B 
+16:57:50.635 -> [-000001421] Success: mcp2515.reset()
+16:57:50.683 -> [-000001392] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:50.777 -> [-000001325] Success: mcp2515.setListenOnlyMode()
+16:57:50.824 -> 14249481 2 25 C6 
+16:57:50.824 -> 190 2 39 3B 
+16:57:50.824 -> 190 2 39 3B 
+16:57:50.871 -> [-000001213] Success: mcp2515.reset()
+16:57:50.918 -> [-000001183] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:50.965 -> [-000001117] Success: mcp2515.setListenOnlyMode()
+16:57:51.012 -> 128 2 25 C6 
+16:57:51.012 -> 190 0 
+16:57:51.012 -> 190 0 
+16:57:51.012 -> [-000001022] Success: mcp2515.reset()
+16:57:51.107 -> [-000000994] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:51.154 -> [-000000926] Success: mcp2515.setListenOnlyMode()
+16:57:51.199 -> 190 0 
+16:57:51.199 -> [-000000855] Success: mcp2515.reset()
+16:57:51.246 -> [-000000826] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:51.340 -> [-000000758] Success: mcp2515.setListenOnlyMode()
+16:57:51.386 -> 190 0 
+16:57:51.386 -> [-000000688] Success: mcp2515.reset()
+16:57:51.433 -> [-000000659] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:51.480 -> [-000000591] Success: mcp2515.setListenOnlyMode()
+16:57:51.528 -> 190 0 
+16:57:51.575 -> [-000000520] Success: mcp2515.reset()
+16:57:51.622 -> [-000000491] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:51.670 -> [-000000423] Success: mcp2515.setListenOnlyMode()
+16:57:51.716 -> 190 2 25 C6 
+16:57:51.716 -> 190 2 25 C6 
+16:57:51.716 -> [-000000331] Success: mcp2515.reset()
+16:57:51.763 -> [-000000303] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:51.811 -> [-000000235] Success: mcp2515.setListenOnlyMode()
+16:57:51.905 -> 6164B81 2 39 3B 
+16:57:51.951 -> 6164B81 2 39 3B 
+16:57:51.951 -> [-000000135] Success: mcp2515.reset()
+16:57:51.951 -> [-000000106] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:52.046 -> [-000000038] Success: mcp2515.setListenOnlyMode()
+16:57:52.092 -> 4B64B81 2 39 32 
+16:57:52.092 -> 4B64B81 2 39 32 
+16:57:52.139 -> [0000000062] Success: mcp2515.reset()
+16:57:52.184 -> [0000000091] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:52.232 -> [0000000158] Success: mcp2515.setListenOnlyMode()
+16:57:52.279 -> 6164B81 2 39 3B 
+16:57:52.279 -> 6164B81 2 39 3B 
+16:57:52.325 -> [0000000259] Success: mcp2515.reset()
+16:57:52.372 -> [0000000287] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:52.418 -> [0000000355] Success: mcp2515.setListenOnlyMode()
+16:57:52.513 -> 6164B81 2 39 32 
+16:57:52.513 -> 6164B81 2 39 32 
+16:57:52.513 -> [0000000454] Success: mcp2515.reset()
+16:57:52.561 -> [0000000484] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:52.608 -> [0000000551] Success: mcp2515.setListenOnlyMode()
+16:57:52.702 -> 190 2 39 3B 
+16:57:52.702 -> 190 2 39 3B 
+16:57:52.702 -> [0000000643] Success: mcp2515.reset()
+16:57:52.749 -> [0000000671] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:52.843 -> [0000000739] Success: mcp2515.setListenOnlyMode()
+16:57:52.843 -> 14A49481 0 
+16:57:52.890 -> 190 2 25 C6 
+16:57:52.890 -> 190 2 25 C6 
+16:57:52.937 -> [0000000844] Success: mcp2515.reset()
+16:57:52.983 -> [0000000873] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:53.030 -> [0000000941] Success: mcp2515.setListenOnlyMode()
+16:57:53.076 -> 190 0 
+16:57:53.076 -> 190 0 
+16:57:53.076 -> 190 0 
+16:57:53.076 -> [0000001029] Success: mcp2515.reset()
+16:57:53.123 -> [0000001057] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:53.216 -> [0000001125] Success: mcp2515.setListenOnlyMode()
+16:57:53.264 -> 190 0 
+16:57:53.264 -> 190 0 
+16:57:53.264 -> [0000001205] Success: mcp2515.reset()
+16:57:53.311 -> [0000001233] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:53.405 -> [0000001301] Success: mcp2515.setListenOnlyMode()
+16:57:53.453 -> 190 2 39 3B 
+16:57:53.453 -> 190 0 
+16:57:53.453 -> 190 0 
+16:57:53.453 -> [0000001395] Success: mcp2515.reset()
+16:57:53.500 -> [0000001424] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:53.549 -> [0000001491] Success: mcp2515.setListenOnlyMode()
+16:57:53.642 -> 1650A081 2 39 3B 
+16:57:53.642 -> 190 2 69 4F 
+16:57:53.642 -> 190 2 69 4F 
+16:57:53.642 -> [0000001603] Success: mcp2515.reset()
+16:57:53.737 -> [0000001632] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:53.784 -> [0000001699] Success: mcp2515.setListenOnlyMode()
+16:57:53.831 -> 6164B81 2 39 32 
+16:57:53.878 -> 190 0 
+16:57:53.878 -> 190 0 
+16:57:53.878 -> [0000001798] Success: mcp2515.reset()
+16:57:53.878 -> [0000001826] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:53.974 -> [0000001894] Success: mcp2515.setListenOnlyMode()
+16:57:54.022 -> 6164B81 2 39 3B 
+16:57:54.070 -> 6164B81 2 39 3B 
+16:57:54.070 -> [0000001994] Success: mcp2515.reset()
+16:57:54.116 -> [0000002023] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:54.163 -> [0000002091] Success: mcp2515.setListenOnlyMode()
+16:57:54.211 -> 190 0 
+16:57:54.211 -> 6164B81 2 39 32 
+16:57:54.258 -> 6164B81 2 39 32 
+16:57:54.258 -> [0000002199] Success: mcp2515.reset()
+16:57:54.305 -> [0000002228] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:54.352 -> [0000002295] Success: mcp2515.setListenOnlyMode()
+16:57:54.447 -> 6164B81 2 39 32 
+16:57:54.447 -> 16509281 2 39 3B 
+16:57:54.447 -> 16509281 2 39 3B 
+16:57:54.493 -> [0000002416] Success: mcp2515.reset()
+16:57:54.541 -> [0000002445] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:54.588 -> [0000002512] Success: mcp2515.setListenOnlyMode()
+16:57:54.681 -> 190 2 39 3B 
+16:57:54.681 -> 190 2 39 3B 
+16:57:54.681 -> [0000002605] Success: mcp2515.reset()
+16:57:54.727 -> [0000002633] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:54.774 -> [0000002701] Success: mcp2515.setListenOnlyMode()
+16:57:54.822 -> 190 2 39 32 
+16:57:54.869 -> 190 0 
+16:57:54.869 -> 190 0 
+16:57:54.869 -> [0000002795] Success: mcp2515.reset()
+16:57:54.915 -> [0000002824] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:54.962 -> [0000002891] Success: mcp2515.setListenOnlyMode()
+16:57:55.009 -> 190 0 
+16:57:55.009 -> 190 2 39 3B 
+16:57:55.057 -> 190 2 39 3B 
+16:57:55.057 -> [0000002992] Success: mcp2515.reset()
+16:57:55.104 -> [0000003020] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:55.151 -> [0000003088] Success: mcp2515.setListenOnlyMode()
+16:57:55.243 -> 190 2 39 3B 
+16:57:55.243 -> [0000003165] Success: mcp2515.reset()
+16:57:55.243 -> [0000003193] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:55.336 -> [0000003261] Success: mcp2515.setListenOnlyMode()
+16:57:55.382 -> 190 2 39 32 
+16:57:55.382 -> 190 2 39 32 
+16:57:55.430 -> [0000003353] Success: mcp2515.reset()
+16:57:55.475 -> [0000003382] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:55.522 -> [0000003449] Success: mcp2515.setListenOnlyMode()
+16:57:55.570 -> 190 0 
+16:57:55.570 -> 190 0 
+16:57:55.570 -> [0000003529] Success: mcp2515.reset()
+16:57:55.616 -> [0000003558] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:55.711 -> [0000003625] Success: mcp2515.setListenOnlyMode()
+16:57:55.758 -> 190 0 
+16:57:55.758 -> 190 0 
+16:57:55.758 -> [0000003704] Success: mcp2515.reset()
+16:57:55.805 -> [0000003733] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:55.900 -> [0000003801] Success: mcp2515.setListenOnlyMode()
+16:57:55.900 -> 190 2 4C 43 
+16:57:55.946 -> 6164B81 2 39 3B 
+16:57:55.946 -> 6164B81 2 39 3B 
+16:57:55.993 -> [0000003915] Success: mcp2515.reset()
+16:57:56.041 -> [0000003945] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:56.088 -> [0000004013] Success: mcp2515.setListenOnlyMode()
+16:57:56.135 -> 190 0 
+16:57:56.135 -> 190 0 
+16:57:56.135 -> [0000004091] Success: mcp2515.reset()
+16:57:56.182 -> [0000004120] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:56.277 -> [0000004188] Success: mcp2515.setListenOnlyMode()
+16:57:56.324 -> 190 0 
+16:57:56.324 -> 190 0 
+16:57:56.324 -> [0000004268] Success: mcp2515.reset()
+16:57:56.371 -> [0000004296] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:56.466 -> [0000004364] Success: mcp2515.setListenOnlyMode()
+16:57:56.466 -> 190 0 
+16:57:56.466 -> [0000004434] Success: mcp2515.reset()
+16:57:56.561 -> [0000004463] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:56.607 -> [0000004531] Success: mcp2515.setListenOnlyMode()
+16:57:56.654 -> 190 0 
+16:57:56.654 -> 190 0 
+16:57:56.701 -> [0000004611] Success: mcp2515.reset()
+16:57:56.701 -> [0000004639] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:56.796 -> [0000004707] Success: mcp2515.setListenOnlyMode()
+16:57:56.842 -> 590 4 39 3B A8 0 
+16:57:56.842 -> 590 4 39 3B A8 0 
+16:57:56.888 -> [0000004809] Success: mcp2515.reset()
+16:57:56.935 -> [0000004838] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:56.982 -> [0000004905] Success: mcp2515.setListenOnlyMode()
+16:57:57.030 -> 6592012 4 39 3B A8 49 
+16:57:57.030 -> 594 0 
+16:57:57.030 -> 594 0 
+16:57:57.077 -> [0000005010] Success: mcp2515.reset()
+16:57:57.125 -> [0000005039] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:57.172 -> [0000005106] Success: mcp2515.setListenOnlyMode()
+16:57:57.220 -> 6592012 4 39 3B A8 49 
+16:57:57.267 -> 6592012 4 39 3B A8 49 
+16:57:57.267 -> [0000005219] Success: mcp2515.reset()
+16:57:57.313 -> [0000005248] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:57.407 -> [0000005315] Success: mcp2515.setListenOnlyMode()
+16:57:57.454 -> 6564B81 2 39 3B 
+16:57:57.454 -> 6564B81 2 39 3B 
+16:57:57.501 -> [0000005415] Success: mcp2515.reset()
+16:57:57.501 -> [0000005444] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:57.593 -> [0000005512] Success: mcp2515.setListenOnlyMode()
+16:57:57.640 -> 190 0 
+16:57:57.640 -> 190 0 
+16:57:57.640 -> [0000005592] Success: mcp2515.reset()
+16:57:57.687 -> [0000005620] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:57.734 -> [0000005688] Success: mcp2515.setListenOnlyMode()
+16:57:57.828 -> 190 0 
+16:57:57.828 -> 190 0 
+16:57:57.828 -> [0000005767] Success: mcp2515.reset()
+16:57:57.874 -> [0000005795] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:57.968 -> [0000005863] Success: mcp2515.setListenOnlyMode()
+16:57:57.968 -> 6592012 4 1D 37 A8 49 
+16:57:58.015 -> 6592012 4 1D 37 A8 49 
+16:57:58.062 -> [0000005976] Success: mcp2515.reset()
+16:57:58.062 -> [0000006005] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:58.156 -> [0000006072] Success: mcp2515.setListenOnlyMode()
+16:57:58.202 -> 190 0 
+16:57:58.202 -> 190 0 
+16:57:58.202 -> [0000006152] Success: mcp2515.reset()
+16:57:58.249 -> [0000006180] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:58.296 -> [0000006248] Success: mcp2515.setListenOnlyMode()
+16:57:58.391 -> 190 0 
+16:57:58.391 -> 190 0 
+16:57:58.391 -> [0000006328] Success: mcp2515.reset()
+16:57:58.437 -> [0000006356] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:58.530 -> [0000006424] Success: mcp2515.setListenOnlyMode()
+16:57:58.530 -> 190 0 
+16:57:58.530 -> [0000006495] Success: mcp2515.reset()
+16:57:58.623 -> [0000006523] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:58.670 -> [0000006591] Success: mcp2515.setListenOnlyMode()
+16:57:58.718 -> 185 8 25 C6 B1 8F 18 BC E2 2A 
+16:57:58.765 -> 185 8 25 C6 B1 8F 18 BC E2 2A 
+16:57:58.765 -> [0000006721] Success: mcp2515.reset()
+16:57:58.811 -> [0000006750] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:58.906 -> [0000006817] Success: mcp2515.setListenOnlyMode()
+16:57:58.953 -> 6592012 4 19 C6 45 2C 
+16:57:59.001 -> 6592012 4 19 C6 45 2C 
+16:57:59.001 -> [0000006930] Success: mcp2515.reset()
+16:57:59.047 -> [0000006959] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:59.095 -> [0000007026] Success: mcp2515.setListenOnlyMode()
+16:57:59.141 -> 6592012 4 39 32 45 2C 
+16:57:59.188 -> 6592012 4 39 32 45 2C 
+16:57:59.235 -> [0000007139] Success: mcp2515.reset()
+16:57:59.235 -> [0000007168] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:59.328 -> [0000007235] Success: mcp2515.setListenOnlyMode()
+16:57:59.328 -> 6592012 4 39 32 45 2C 
+16:57:59.375 -> [0000007323] Success: mcp2515.reset()
+16:57:59.422 -> [0000007352] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:59.469 -> [0000007419] Success: mcp2515.setListenOnlyMode()
+16:57:59.565 -> 6592012 4 39 32 45 2C 
+16:57:59.565 -> [0000007506] Success: mcp2515.reset()
+16:57:59.613 -> [0000007536] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:59.660 -> [0000007603] Success: mcp2515.setListenOnlyMode()
+16:57:59.753 -> 185 0 
+16:57:59.753 -> 185 0 
+16:57:59.753 -> [0000007683] Success: mcp2515.reset()
+16:57:59.802 -> [0000007711] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:57:59.849 -> [0000007779] Success: mcp2515.setListenOnlyMode()
+16:57:59.896 -> 185 8 25 C6 48 2C 18 BC E0 2A 
+16:57:59.943 -> 185 8 25 C6 48 2C 18 BC E0 2A 
+16:57:59.990 -> [0000007908] Success: mcp2515.reset()
+16:57:59.990 -> [0000007938] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:00.085 -> [0000008005] Success: mcp2515.setListenOnlyMode()
+16:58:00.134 -> 6169281 0 
+16:58:00.134 -> 6169281 0 
+16:58:00.134 -> [0000008092] Success: mcp2515.reset()
+16:58:00.226 -> [0000008121] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:00.274 -> [0000008188] Success: mcp2515.setListenOnlyMode()
+16:58:00.321 -> 6169281 0 
+16:58:00.321 -> [0000008264] Success: mcp2515.reset()
+16:58:00.368 -> [0000008293] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:00.462 -> [0000008360] Success: mcp2515.setListenOnlyMode()
+16:58:00.462 -> 185 8 25 C6 48 0 18 BC E0 2A 
+16:58:00.508 -> 185 8 25 C6 48 0 18 BC E0 2A 
+16:58:00.556 -> [0000008487] Success: mcp2515.reset()
+16:58:00.556 -> [0000008516] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:00.650 -> [0000008584] Success: mcp2515.setListenOnlyMode()
+16:58:00.697 -> 4E180F2 1 25 
+16:58:00.697 -> 4E180F2 1 25 
+16:58:00.745 -> [0000008678] Success: mcp2515.reset()
+16:58:00.792 -> [0000008707] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:00.839 -> [0000008774] Success: mcp2515.setListenOnlyMode()
+16:58:00.933 -> 190 2 25 C6 
+16:58:00.933 -> 190 2 25 C6 
+16:58:00.933 -> [0000008866] Success: mcp2515.reset()
+16:58:00.980 -> [0000008895] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:01.027 -> [0000008963] Success: mcp2515.setListenOnlyMode()
+16:58:01.073 -> 6164B81 2 39 3B 
+16:58:01.120 -> 190 0 
+16:58:01.120 -> 190 0 
+16:58:01.120 -> [0000009061] Success: mcp2515.reset()
+16:58:01.167 -> [0000009090] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:01.262 -> [0000009157] Success: mcp2515.setListenOnlyMode()
+16:58:01.262 -> 194 0 
+16:58:01.262 -> 194 0 
+16:58:01.308 -> [0000009236] Success: mcp2515.reset()
+16:58:01.355 -> [0000009265] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:01.401 -> [0000009332] Success: mcp2515.setListenOnlyMode()
+16:58:01.448 -> 195 8 25 C6 48 0 93 16 E2 2A 
+16:58:01.495 -> 190 2 25 C6 
+16:58:01.495 -> 190 2 25 C6 
+16:58:01.495 -> [0000009457] Success: mcp2515.reset()
+16:58:01.589 -> [0000009486] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:01.636 -> [0000009553] Success: mcp2515.setListenOnlyMode()
+16:58:01.684 -> 185 8 25 C6 48 0 93 16 E2 2A 
+16:58:01.732 -> 190 0 
+16:58:01.732 -> 190 0 
+16:58:01.732 -> [0000009665] Success: mcp2515.reset()
+16:58:01.779 -> [0000009694] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:01.827 -> [0000009761] Success: mcp2515.setListenOnlyMode()
+16:58:01.874 -> 195 8 25 C6 48 0 18 BC E0 2A 
+16:58:01.920 -> 195 8 25 C6 48 0 18 BC E0 2A 
+16:58:01.920 -> [0000009888] Success: mcp2515.reset()
+16:58:01.967 -> [0000009917] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:02.060 -> [0000009985] Success: mcp2515.setListenOnlyMode()
+16:58:02.107 -> 190 2 25 C6 
+16:58:02.153 -> 190 2 25 C6 
+16:58:02.153 -> [0000010077] Success: mcp2515.reset()
+16:58:02.153 -> [0000010105] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:02.245 -> [0000010173] Success: mcp2515.setListenOnlyMode()
+16:58:02.292 -> 195 8 25 C6 48 0 93 16 E2 2A 
+16:58:02.338 -> 195 8 25 C6 48 0 93 16 E2 2A 
+16:58:02.385 -> [0000010300] Success: mcp2515.reset()
+16:58:02.385 -> [0000010329] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:02.479 -> [0000010396] Success: mcp2515.setListenOnlyMode()
+16:58:02.526 -> 120 2 25 C6 
+16:58:02.526 -> 120 2 25 C6 
+16:58:02.526 -> [0000010488] Success: mcp2515.reset()
+16:58:02.621 -> [0000010517] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:02.668 -> [0000010585] Success: mcp2515.setListenOnlyMode()
+16:58:02.715 -> 190 2 25 C6 
+16:58:02.762 -> 190 2 25 C6 
+16:58:02.762 -> [0000010677] Success: mcp2515.reset()
+16:58:02.762 -> [0000010705] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:02.857 -> [0000010773] Success: mcp2515.setListenOnlyMode()
+16:58:02.905 -> 190 2 25 C6 
+16:58:02.905 -> [0000010851] Success: mcp2515.reset()
+16:58:02.952 -> [0000010880] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:02.999 -> [0000010947] Success: mcp2515.setListenOnlyMode()
+16:58:03.093 -> 190 2 25 C6 
+16:58:03.093 -> [0000011024] Success: mcp2515.reset()
+16:58:03.141 -> [0000011053] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:03.188 -> [0000011120] Success: mcp2515.setListenOnlyMode()
+16:58:03.236 -> 190 2 25 C6 
+16:58:03.284 -> [0000011198] Success: mcp2515.reset()
+16:58:03.284 -> [0000011227] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:03.378 -> [0000011294] Success: mcp2515.setListenOnlyMode()
+16:58:03.424 -> 190 0 
+16:58:03.424 -> 190 0 
+16:58:03.424 -> [0000011374] Success: mcp2515.reset()
+16:58:03.471 -> [0000011403] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:03.518 -> [0000011470] Success: mcp2515.setListenOnlyMode()
+16:58:03.614 -> 190 0 
+16:58:03.614 -> [0000011541] Success: mcp2515.reset()
+16:58:03.658 -> [0000011570] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:03.705 -> [0000011637] Success: mcp2515.setListenOnlyMode()
+16:58:03.752 -> 190 0 
+16:58:03.752 -> [0000011709] Success: mcp2515.reset()
+16:58:03.800 -> [0000011738] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:03.848 -> [0000011805] Success: mcp2515.setListenOnlyMode()
+16:58:03.941 -> 190 2 25 C6 
+16:58:03.941 -> 190 2 25 C6 
+16:58:03.989 -> [0000011896] Success: mcp2515.reset()
+16:58:03.989 -> [0000011925] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:04.083 -> [0000011993] Success: mcp2515.setListenOnlyMode()
+16:58:04.083 -> 195 8 25 C6 48 0 93 16 E2 2A 
+16:58:04.131 -> 195 8 25 C6 48 0 93 16 E2 2A 
+16:58:04.177 -> [0000012121] Success: mcp2515.reset()
+16:58:04.224 -> [0000012149] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:04.320 -> [0000012217] Success: mcp2515.setListenOnlyMode()
+16:58:04.320 -> 128 2 39 3B 
+16:58:04.366 -> 128 2 39 3B 
+16:58:04.366 -> [0000012309] Success: mcp2515.reset()
+16:58:04.415 -> [0000012338] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:04.462 -> [0000012405] Success: mcp2515.setListenOnlyMode()
+16:58:04.555 -> 190 2 25 C6 
+16:58:04.555 -> 190 2 25 C6 
+16:58:04.555 -> [0000012496] Success: mcp2515.reset()
+16:58:04.603 -> [0000012525] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:04.650 -> [0000012593] Success: mcp2515.setListenOnlyMode()
+16:58:04.698 -> 185 8 25 C6 48 0 93 16 E2 2A 
+16:58:04.745 -> 185 8 25 C6 48 0 93 16 E2 2A 
+16:58:04.745 -> [0000012721] Success: mcp2515.reset()
+16:58:04.839 -> [0000012749] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:04.886 -> [0000012817] Success: mcp2515.setListenOnlyMode()
+16:58:04.933 -> 185 8 25 C6 48 0 93 16 E2 2A 
+16:58:04.980 -> [0000012912] Success: mcp2515.reset()
+16:58:04.980 -> [0000012941] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:05.074 -> [0000013008] Success: mcp2515.setListenOnlyMode()
+16:58:05.122 -> 186 0 
+16:58:05.122 -> 186 0 
+16:58:05.122 -> [0000013087] Success: mcp2515.reset()
+16:58:05.216 -> [0000013116] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:05.262 -> [0000013184] Success: mcp2515.setListenOnlyMode()
+16:58:05.310 -> 190 2 25 C6 
+16:58:05.358 -> 190 2 25 C6 
+16:58:05.358 -> [0000013276] Success: mcp2515.reset()
+16:58:05.358 -> [0000013304] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:05.451 -> [0000013372] Success: mcp2515.setListenOnlyMode()
+16:58:05.497 -> 185 8 25 C6 48 0 18 BC E0 2A 
+16:58:05.544 -> 185 8 25 C6 48 0 18 BC E0 2A 
+16:58:05.544 -> [0000013499] Success: mcp2515.reset()
+16:58:05.591 -> [0000013529] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:05.685 -> [0000013596] Success: mcp2515.setListenOnlyMode()
+16:58:05.733 -> 14249412 2 25 C6 
+16:58:05.733 -> 14249412 2 25 C6 
+16:58:05.781 -> [0000013698] Success: mcp2515.reset()
+16:58:05.781 -> [0000013727] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:05.875 -> [0000013794] Success: mcp2515.setListenOnlyMode()
+16:58:05.922 -> 190 0 
+16:58:05.922 -> 190 0 
+16:58:05.922 -> [0000013874] Success: mcp2515.reset()
+16:58:05.968 -> [0000013902] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:06.017 -> [0000013970] Success: mcp2515.setListenOnlyMode()
+16:58:06.109 -> 125 0 
+16:58:06.109 -> 125 0 
+16:58:06.109 -> [0000014050] Success: mcp2515.reset()
+16:58:06.157 -> [0000014078] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:06.251 -> [0000014146] Success: mcp2515.setListenOnlyMode()
+16:58:06.251 -> 190 2 25 C6 
+16:58:06.298 -> 190 2 25 C6 
+16:58:06.298 -> [0000014238] Success: mcp2515.reset()
+16:58:06.345 -> [0000014267] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:06.393 -> [0000014334] Success: mcp2515.setListenOnlyMode()
+16:58:06.440 -> 190 0 
+16:58:06.440 -> 190 0 
+16:58:06.440 -> [0000014413] Success: mcp2515.reset()
+16:58:06.487 -> [0000014442] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:06.581 -> [0000014510] Success: mcp2515.setListenOnlyMode()
+16:58:06.629 -> 6592012 5 25 C6 48 0 93 
+16:58:06.674 -> 6164B81 0 
+16:58:06.674 -> 6164B81 0 
+16:58:06.674 -> [0000014624] Success: mcp2515.reset()
+16:58:06.721 -> [0000014653] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:06.815 -> [0000014721] Success: mcp2515.setListenOnlyMode()
+16:58:06.815 -> 6164B81 0 
+16:58:06.863 -> [0000014796] Success: mcp2515.reset()
+16:58:06.908 -> [0000014825] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:06.955 -> [0000014893] Success: mcp2515.setListenOnlyMode()
+16:58:07.049 -> 6164B81 0 
+16:58:07.049 -> [0000014968] Success: mcp2515.reset()
+16:58:07.049 -> [0000014997] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:07.144 -> [0000015065] Success: mcp2515.setListenOnlyMode()
+16:58:07.193 -> 6164B81 0 
+16:58:07.193 -> [0000015139] Success: mcp2515.reset()
+16:58:07.240 -> [0000015168] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:07.287 -> [0000015236] Success: mcp2515.setListenOnlyMode()
+16:58:07.381 -> 190 0 
+16:58:07.381 -> 190 0 
+16:58:07.381 -> [0000015315] Success: mcp2515.reset()
+16:58:07.427 -> [0000015344] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:07.475 -> [0000015412] Success: mcp2515.setListenOnlyMode()
+16:58:07.523 -> 6164B81 2 39 3B 
+16:58:07.570 -> 6164B81 2 39 3B 
+16:58:07.570 -> [0000015512] Success: mcp2515.reset()
+16:58:07.618 -> [0000015541] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:07.665 -> [0000015608] Success: mcp2515.setListenOnlyMode()
+16:58:07.713 -> 195 8 25 C6 48 0 93 16 E2 2A 
+16:58:07.760 -> 195 8 25 C6 48 0 93 16 E2 2A 
+16:58:07.810 -> [0000015735] Success: mcp2515.reset()
+16:58:07.810 -> [0000015764] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:07.901 -> [0000015832] Success: mcp2515.setListenOnlyMode()
+16:58:07.948 -> 6164B81 2 39 32 
+16:58:07.948 -> 6164B81 2 39 32 
+16:58:07.996 -> [0000015932] Success: mcp2515.reset()
+16:58:08.044 -> [0000015961] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:08.090 -> [0000016028] Success: mcp2515.setListenOnlyMode()
+16:58:08.137 -> 185 8 25 C6 48 0 93 16 E2 2A 
+16:58:08.185 -> 185 8 25 C6 48 0 93 16 E2 2A 
+16:58:08.233 -> [0000016155] Success: mcp2515.reset()
+16:58:08.280 -> [0000016184] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:08.327 -> [0000016251] Success: mcp2515.setListenOnlyMode()
+16:58:08.374 -> 6164B81 2 39 3B 
+16:58:08.374 -> 6164B81 2 39 3B 
+16:58:08.421 -> [0000016352] Success: mcp2515.reset()
+16:58:08.468 -> [0000016380] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:08.517 -> [0000016448] Success: mcp2515.setListenOnlyMode()
+16:58:08.562 -> 185 8 25 C6 48 0 93 16 E2 2A 
+16:58:08.608 -> 185 8 25 C6 48 0 93 16 E2 2A 
+16:58:08.608 -> [0000016576] Success: mcp2515.reset()
+16:58:08.653 -> [0000016605] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:08.747 -> [0000016672] Success: mcp2515.setListenOnlyMode()
+16:58:08.793 -> 6164B81 2 39 32 
+16:58:08.839 -> 6164B81 2 39 32 
+16:58:08.839 -> [0000016773] Success: mcp2515.reset()
+16:58:08.839 -> [0000016801] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:08.932 -> [0000016869] Success: mcp2515.setListenOnlyMode()
+16:58:08.981 -> 185 8 25 C6 48 0 93 16 E2 2A 
+16:58:09.029 -> 185 8 25 C6 48 0 93 16 E2 2A 
+16:58:09.076 -> [0000016996] Success: mcp2515.reset()
+16:58:09.076 -> [0000017025] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:09.171 -> [0000017092] Success: mcp2515.setListenOnlyMode()
+16:58:09.217 -> 6164B81 2 30 E0 
+16:58:09.217 -> 6164B81 2 30 E0 
+16:58:09.264 -> [0000017192] Success: mcp2515.reset()
+16:58:09.312 -> [0000017221] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:09.359 -> [0000017289] Success: mcp2515.setListenOnlyMode()
+16:58:09.405 -> 195 8 25 C6 48 0 93 16 E2 2A 
+16:58:09.452 -> 195 8 25 C6 48 0 93 16 E2 2A 
+16:58:09.452 -> [0000017416] Success: mcp2515.reset()
+16:58:09.545 -> [0000017444] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:09.592 -> [0000017512] Success: mcp2515.setListenOnlyMode()
+16:58:09.640 -> 185 8 25 C6 48 0 93 16 E2 2A 
+16:58:09.640 -> 6164B81 2 39 32 
+16:58:09.684 -> 6164B81 2 39 32 
+16:58:09.684 -> [0000017645] Success: mcp2515.reset()
+16:58:09.778 -> [0000017674] Success: mcp2515.setBitrate( CAN_125KBPS, MCP_8MHZ)
+16:58:09.825 -> [0000017741] Success: mcp2515.
+
