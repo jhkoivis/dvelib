@@ -162,9 +162,9 @@ function hl() {
 	sed -u s"/$search/$fg_c\0$c_rs/g"
 }
 
-export DISPLAY=localhost:0
-
-echo Run xming on Windows host for graphical programs
+#export DISPLAY=localhost:0
+export DISPLAY=:0
+#echo Run xming on Windows host for graphical programs
 
 
 
