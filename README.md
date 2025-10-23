@@ -7,3 +7,10 @@ pushd ~ && mv ~/.bashrc ~/.bashrc.\`date +%s\` && wget https://github.com/jhkoiv
 or how to map a folder to letter V: in windows. Use your own account, not admin.
 
 net use v: "\\\localhost\c$\Users\jhkoivis\Dropbox\" /persistent:yes
+
+create forward - reverese loop from input.mp4 and save it as output.mp4
+
+ffmpeg -i input.mp4 -c copy forward.mp4
+ffmpeg -i forward.mp4 -vf reverse reversed.mp4
+printf "file 'input.mp4'\nfile 'reversed.mp4'\n" > mylist.txt
+ffmpeg -f concat -safe 0 -i mylist.txt -c copy output.mp4
