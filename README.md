@@ -13,7 +13,7 @@ net use u: "\\wsl.localhost\Ubuntu" /persistent:yes
 create forward - reverese loop from frames to input.mp4 and save it as output.mp4. The last line is powerpoint compatibility line.
 
 ```
-ffmpeg -framerate 30 -i frame%05d.png input.mp4
+ffmpeg -y -framerate 30 -i frame%05d.png input.mp4
 ffmpeg -y -i input.mp4 -c copy forward.mp4
 ffmpeg -y -i forward.mp4 -vf reverse reversed.mp4
 printf "file 'input.mp4'\nfile 'reversed.mp4'\n" > mylist.txt
