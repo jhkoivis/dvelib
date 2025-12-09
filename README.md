@@ -18,5 +18,5 @@ ffmpeg -y -i input.mp4 -c copy forward.mp4
 ffmpeg -y -i forward.mp4 -vf reverse reversed.mp4
 printf "file 'input.mp4'\nfile 'reversed.mp4'\n" > mylist.txt
 ffmpeg -y -f concat -safe 0 -i mylist.txt -c copy catenated.mp4
-ffmpeg -y -catenated.mp4 -c:v libx264 -preset slow  -profile:v high -level:v 4.0 -pix_fmt yuv420p -crf 22 -codec:a aac -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" output.mp4
+ffmpeg -y -i catenated.mp4 -c:v libx264 -preset slow  -profile:v high -level:v 4.0 -pix_fmt yuv420p -crf 22 -codec:a aac -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" output.mp4
 ```
