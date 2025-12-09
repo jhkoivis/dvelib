@@ -10,7 +10,7 @@ net use v: "\\\localhost\c$\Users\jhkoivis\Dropbox\" /persistent:yes
 
 net use u: "\\wsl.localhost\Ubuntu" /persistent:yes
 
-create forward - reverese loop from frames to input.mp4 and save it as output.mp4
+create forward - reverese loop from frames to input.mp4 and save it as output.mp4. The last line is powerpoint compatibility line.
 
 ```
 ffmpeg -framerate 30 -i frame%05d.png input.mp4
