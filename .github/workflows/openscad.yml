@@ -1,0 +1,31 @@
+name: Build STL
+
+on:
+  push:
+    paths:
+      - "**.scad"
+      - ".github/workflows/openscad.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install OpenSCAD
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y openscad
+
+      - name: Render STL
+        run: |
+          mkdir -p out
+          openscad -o out/model.stl model.scad
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: stl
+          path: out/model.stl
