@@ -26,7 +26,7 @@ jobs:
             --data '{"path": "/Apps/github-sandbox"}')
 
           echo "$response" \
-            | jq -r '.entries[] | select(.[".tag"]=="file") | select(.name | endswith(".scad")) | .path_lower' \
+            | jq -r '.entries[] | select(.[".tag"]=="file") | select(.name | endswith(".stl")) | .path_lower' \
             | while read -r dbx_path; do
                 fname="$(basename "$dbx_path")"
 
