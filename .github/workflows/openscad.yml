@@ -5,10 +5,11 @@ on:
     paths:
       - "**.scad"
       - ".github/workflows/openscad.yml"
-  workflow_dispatch:
     paths-ignore:
       - "stl/**"
       - "**.stl"
+
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
