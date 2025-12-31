@@ -26,12 +26,13 @@ jobs:
         run: |
           mkdir -p out
           openscad -o out/model.stl model.scad
+          openscad -o out/model2.stl model.scad
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: stl
-          path: out/model.stl
+          path: out/model2.stl
 
       - name: Commit STL
         run: |
