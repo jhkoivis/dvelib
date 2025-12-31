@@ -1,4 +1,4 @@
-name: Pull SCAD files from Dropbox
+name: Pull and copy to model.scad
 
 on:
   workflow_dispatch:
