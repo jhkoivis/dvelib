@@ -29,6 +29,7 @@ jobs:
             | jq -r '.entries[] | select(.[".tag"]=="file") | select(.name | endswith(".scad")) | .path_lower' \
             | while read -r dbx_path; do
                 fname="$(basename "$dbx_path")"
+
                 curl -sS -X POST https://content.dropboxapi.com/2/files/download \
                   --header "Authorization: Bearer $DROPBOX_TOKEN" \
                   --header "Dropbox-API-Arg: {\"path\": \"$dbx_path\"}" \
