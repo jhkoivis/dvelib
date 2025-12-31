@@ -48,7 +48,7 @@ jobs:
           response=$(curl -sS -X POST https://api.dropboxapi.com/2/files/list_folder \
             --header "Authorization: Bearer $DROPBOX_TOKEN" \
             --header "Content-Type: application/json" \
-            --data '{"path": "/Apps/github-sandbox"}')
+            --data '{"path": ""}')
 
           if echo "$response" | jq -e '.error' >/dev/null; then
             echo "Dropbox API error"
