@@ -1,4 +1,4 @@
-name: Pull and copy to model.scad
+name: Dropbox pull and select model.scad
 
 on:
   workflow_dispatch:
@@ -14,33 +14,48 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download all SCAD files from Dropbox
+      - name: Download everything from Dropbox with debug output
         env:
           DROPBOX_TOKEN: ${{ secrets.DROPBOX_TOKEN }}
         run: |
           set -euo pipefail
 
+          echo "Listing Dropbox folder contents"
           response=$(curl -sS -X POST https://api.dropboxapi.com/2/files/list_folder \
             --header "Authorization: Bearer $DROPBOX_TOKEN" \
             --header "Content-Type: application/json" \
             --data '{"path": "/Apps/github-sandbox"}')
 
+          echo "Raw Dropbox response:"
+          echo "$response" | jq .
+
+          echo "Files found:"
           echo "$response" \
-            | jq -r '.entries[] | select(.[".tag"]=="file") | select(.name | endswith(".stl")) | .path_lower' \
+            | jq -r '.entries[] | select(.[".tag"]=="file") | "\(.name)  \(.client_modified)"'
+
+          echo "Downloading files"
+          echo "$response" \
+            | jq -r '.entries[] | select(.[".tag"]=="file") | .path_lower' \
             | while read -r dbx_path; do
                 fname="$(basename "$dbx_path")"
-
+                echo "Downloading $fname"
                 curl -sS -X POST https://content.dropboxapi.com/2/files/download \
                   --header "Authorization: Bearer $DROPBOX_TOKEN" \
                   --header "Dropbox-API-Arg: {\"path\": \"$dbx_path\"}" \
                   --output "$fname"
               done
 
+          echo "Files in workspace after download"
+          ls -lh
+
       - name: Select newest SCAD as model.scad
         run: |
           set -euo pipefail
+
           newest_scad=$(ls -1t *.scad 2>/dev/null | head -n 1 || true)
+
           if [ -n "${newest_scad:-}" ]; then
+            echo "Newest SCAD is $newest_scad"
             cp -f "$newest_scad" model.scad
           else
             echo "No .scad files found"
@@ -49,12 +64,15 @@ jobs:
       - name: Commit changes if any
         run: |
           set -euo pipefail
+
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add *.scad model.scad 2>/dev/null || true
+
+          git add .
           if git diff --cached --quiet; then
-            echo "No changes to commit."
+            echo "No changes to commit"
             exit 0
           fi
-          git commit -m "Sync SCAD files from Dropbox"
+
+          git commit -m "Pull all files from Dropbox and update model.scad"
           git push
