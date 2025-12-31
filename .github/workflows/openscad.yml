@@ -1,40 +1,41 @@
-name: Build STL
+name: OpenSCAD STL
 
 on:
   push:
     paths:
-      - "**.scad"
+      - "**/*.scad"
       - ".github/workflows/openscad.yml"
 
-  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+
+      - name: Cache OpenSCAD
+        id: cache-openscad
+        uses: actions/cache@v4
+        with:
+          path: /usr/bin/openscad
+          key: openscad-ubuntu-2023
 
       - name: Install OpenSCAD
+        if: steps.cache-openscad.outputs.cache-hit != 'true'
         run: |
           sudo apt-get update
           sudo apt-get install -y openscad
 
       - name: Render STL
         run: |
-          mkdir -p out
-          openscad -o out/model.stl model.scad
-          openscad -o out/model2.stl model.scad
+          openscad -o model.stl model.scad
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: stl
-          path: out/model2.stl
-
-      - name: Commit STL
+      - name: Upload STL to Dropbox sandbox
+        env:
+          DROPBOX_TOKEN: ${{ secrets.DROPBOX_TOKEN }}
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add out/model.stl
-          git commit -m "Auto-build STL" || echo "No changes"
-          git push
+          curl -X POST https://content.dropboxapi.com/2/files/upload \
+            --header "Authorization: Bearer $DROPBOX_TOKEN" \
+            --header "Dropbox-API-Arg: {\"path\": \"/sandbox/model.stl\", \"mode\": \"overwrite\", \"autorename\": false, \"mute\": true}" \
+            --header "Content-Type: application/octet-stream" \
+            --data-binary @model.stl
