@@ -1,4 +1,4 @@
-name: Dropbox pull and select model.scad
+name: Dropbox pull and copy newest scad to model.scad
 
 on:
   workflow_dispatch:
@@ -14,9 +14,33 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download everything from Dropbox with debug output
+      - name: Get Dropbox access token
         env:
-          DROPBOX_TOKEN: ${{ secrets.DROPBOX_TOKEN }}
+          APP_KEY: ${{ secrets.DROPBOX_APP_KEY }}
+          APP_SECRET: ${{ secrets.DROPBOX_APP_SECRET }}
+          REFRESH_TOKEN: ${{ secrets.DROPBOX_REFRESH_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          response=$(curl -sS https://api.dropbox.com/oauth2/token \
+            -d grant_type=refresh_token \
+            -d refresh_token="$REFRESH_TOKEN" \
+            -d client_id="$APP_KEY" \
+            -d client_secret="$APP_SECRET")
+
+          echo "Token response"
+          echo "$response" | jq .
+
+          ACCESS_TOKEN=$(echo "$response" | jq -r .access_token)
+
+          if [ "$ACCESS_TOKEN" = "null" ] || [ -z "$ACCESS_TOKEN" ]; then
+            echo "Failed to obtain Dropbox access token"
+            exit 1
+          fi
+
+          echo "DROPBOX_TOKEN=$ACCESS_TOKEN" >> $GITHUB_ENV
+
+      - name: Download everything from Dropbox with debug output
         run: |
           set -euo pipefail
 
@@ -26,10 +50,16 @@ jobs:
             --header "Content-Type: application/json" \
             --data '{"path": "/Apps/github-sandbox"}')
 
-          echo "Raw Dropbox response:"
+          if echo "$response" | jq -e '.error' >/dev/null; then
+            echo "Dropbox API error"
+            echo "$response" | jq .
+            exit 1
+          fi
+
+          echo "Raw Dropbox response"
           echo "$response" | jq .
 
-          echo "Files found:"
+          echo "Files found"
           echo "$response" \
             | jq -r '.entries[] | select(.[".tag"]=="file") | "\(.name)  \(.client_modified)"'
 
@@ -45,7 +75,7 @@ jobs:
                   --output "$fname"
               done
 
-          echo "Files in workspace after download"
+          echo "Workspace after download"
           ls -lh
 
       - name: Select newest SCAD as model.scad
@@ -58,7 +88,7 @@ jobs:
             echo "Newest SCAD is $newest_scad"
             cp -f "$newest_scad" model.scad
           else
-            echo "No .scad files found"
+            echo "No scad files found"
           fi
 
       - name: Commit changes if any
@@ -74,5 +104,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Pull all files from Dropbox and update model.scad"
+          git commit -m "Pull from Dropbox and update model.scad"
           git push
