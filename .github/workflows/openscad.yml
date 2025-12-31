@@ -36,6 +36,6 @@ jobs:
         run: |
           curl -X POST https://content.dropboxapi.com/2/files/upload \
             --header "Authorization: Bearer $DROPBOX_TOKEN" \
-            --header "Dropbox-API-Arg: {\"path\": \"/github-sandbox/model.stl\", \"mode\": \"overwrite\", \"autorename\": false, \"mute\": true}" \
+            --header "Dropbox-API-Arg: {\"path\": \"/Apps/github-sandbox/model.stl\", \"mode\": \"overwrite\", \"autorename\": false, \"mute\": true}" \
             --header "Content-Type: application/octet-stream" \
             --data-binary @model.stl
