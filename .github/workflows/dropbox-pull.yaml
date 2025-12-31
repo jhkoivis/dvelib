@@ -36,6 +36,18 @@ jobs:
                   --output "$fname"
               done
 
+- name: Select newest SCAD as model.scad
+        run: |
+          set -euo pipefail
+
+          newest_scad=$(ls -1t *.scad 2>/dev/null | head -n 1 || true)
+
+          if [ -n "${newest_scad:-}" ]; then
+            cp -f "$newest_scad" model.scad
+          else
+            echo "No .scad files found"
+          fi
+
       - name: Commit changes if any
         run: |
           set -euo pipefail
