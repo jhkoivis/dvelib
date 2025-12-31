@@ -36,6 +36,30 @@ jobs:
                   --output "$fname"
               done
 
+
+          # Newest .scad copied to model.scad
+          newest_scad_path=$(echo "$response" \
+            | jq -r '
+              [.entries[]
+                | select(.[".tag"]=="file")
+                | select(.name | endswith(".scad"))
+                | {path: .path_lower, t: .client_modified}
+              ]
+              | sort_by(.t)
+              | last
+              | .path // empty
+            ')
+
+          if [ -n "$newest_scad_path" ]; then
+            curl -sS -X POST https://content.dropboxapi.com/2/files/download \
+              --header "Authorization: Bearer $DROPBOX_TOKEN" \
+              --header "Dropbox-API-Arg: {\"path\": \"$newest_scad_path\"}" \
+              --output "model.scad"
+          else
+            echo "No .scad files found in /Apps/github-sandbox"
+          fi
+
+
       - name: Commit changes if any
         run: |
           set -euo pipefail
