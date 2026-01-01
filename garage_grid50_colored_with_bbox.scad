@@ -86,6 +86,8 @@ module bbox_wire(b){
 
 bbox_wire(bbox);
 
+sphere(r=100, center=true);
+
 for (p = poses) {
   beam(p[1], p[2], p[3], p[4]);
 }
