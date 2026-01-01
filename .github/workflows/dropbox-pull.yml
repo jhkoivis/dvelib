@@ -1,0 +1,118 @@
+name: Dropbox SCAD to STL roundtrip
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"
+
+jobs:
+  pull_build_upload:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get Dropbox access token
+        env:
+          APP_KEY: ${{ secrets.DROPBOX_APP_KEY }}
+          APP_SECRET: ${{ secrets.DROPBOX_APP_SECRET }}
+          REFRESH_TOKEN: ${{ secrets.DROPBOX_REFRESH_TOKEN }}
+        run: |
+          set -euo pipefail
+          response=$(curl -sS https://api.dropbox.com/oauth2/token \
+            -d grant_type=refresh_token \
+            -d refresh_token="$REFRESH_TOKEN" \
+            -d client_id="$APP_KEY" \
+            -d client_secret="$APP_SECRET")
+          ACCESS_TOKEN=$(echo "$response" | jq -r .access_token)
+
+          if [ "$ACCESS_TOKEN" = "null" ] || [ -z "$ACCESS_TOKEN" ]; then
+            echo "Failed to obtain Dropbox access token"
+            echo "$response" | jq .
+            exit 1
+          fi
+
+          echo "DROPBOX_TOKEN=$ACCESS_TOKEN" >> "$GITHUB_ENV"
+
+      - name: Download newest SCAD from Dropbox as model.scad
+        run: |
+          set -euo pipefail
+
+          response=$(curl -sS -X POST https://api.dropboxapi.com/2/files/list_folder \
+            --header "Authorization: Bearer $DROPBOX_TOKEN" \
+            --header "Content-Type: application/json" \
+            --data '{"path": ""}')
+
+          if echo "$response" | jq -e '.error' >/dev/null; then
+            echo "Dropbox API error"
+            echo "$response" | jq .
+            exit 1
+          fi
+
+          newest_path=$(
+            echo "$response" \
+              | jq -r '.entries[]
+                | select(.[".tag"]=="file")
+                | select(.name | ascii_downcase | endswith(".scad"))
+                | "\(.client_modified)\t\(.path_lower)"' \
+              | sort -r \
+              | head -n 1 \
+              | cut -f2
+          )
+
+          if [ -z "${newest_path:-}" ]; then
+            echo "No scad files found in Dropbox folder"
+            exit 1
+          fi
+
+          echo "Downloading $newest_path"
+          curl -sS -X POST https://content.dropboxapi.com/2/files/download \
+            --header "Authorization: Bearer $DROPBOX_TOKEN" \
+            --header "Dropbox-API-Arg: {\"path\": \"$newest_path\"}" \
+            --output model.scad
+
+          ls -lh model.scad
+
+      - name: Commit model.scad if it changed
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add model.scad
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update model.scad from Dropbox"
+            git push
+          fi
+
+      - name: Cache OpenSCAD
+        id: cache-openscad
+        uses: actions/cache@v4
+        with:
+          path: /usr/bin/openscad
+          key: openscad-ubuntu-2023
+
+      - name: Install OpenSCAD and jq
+        if: steps.cache-openscad.outputs.cache-hit != 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y openscad jq
+
+      - name: Render STL
+        run: |
+          set -euo pipefail
+          openscad -o model.stl model.scad
+          ls -lh model.stl
+
+      - name: Upload STL to Dropbox
+        run: |
+          set -euo pipefail
+          curl -sS -X POST https://content.dropboxapi.com/2/files/upload \
+            --header "Authorization: Bearer $DROPBOX_TOKEN" \
+            --header "Dropbox-API-Arg: {\"path\": \"/model.stl\", \"mode\": \"overwrite\", \"autorename\": false, \"mute\": true}" \
+            --header "Content-Type: application/octet-stream" \
+            --data-binary @model.stl
